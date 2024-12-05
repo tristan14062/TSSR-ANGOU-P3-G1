@@ -11,7 +11,7 @@
 
 ## Objectifs finaux
 
-  L'objectif final de fin de projet est de mettre en place une nouvelle infrastructure réseau par le biais des compétences citées précédemment, de nos connaissances personnelles et de la méthode Scrum. Chaque semaine, de nouveaux objectifs viendront s'ajouter (éléments matériels logiciels et logiciels), nous devrons évaluer ce qui doit être fait (en établissant un ordre de priorités) et de ce fait prévoir une réévaluation de ce qui a été fait dans les sprints précédents afin d'assurer l'amélioration de notre infrastructure.
+  L'objectif final de fin de projet est de mettre en place une nouvelle infrastructure réseau par le biais des compétences citées précédemment, de nos connaissances personnelles et de la méthode Scrum. Chaque semaine, de nouveaux objectifs viendront s'ajouter (éléments matériels et logiciels), nous devrons évaluer ce qui doit être fait (en établissant un ordre de priorités) et de ce fait prévoir une réévaluation de ce qui a été fait dans les sprints précédents afin d'assurer l'amélioration de notre infrastructure.
 
 ## Introduction : mise en contexte
 
