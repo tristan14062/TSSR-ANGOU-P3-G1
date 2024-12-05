@@ -11,6 +11,14 @@
 **Miro** pour la gestion de projet via la méthode Scrum.  
 **Draw.io** pour la mise en place du schéma réseau prévisionnel de l'infrastructure.
 
+## Objectifs du Sprint
+
+_**Début de Sprint 1**_
+![]()
+
+_**Fin de Sprint 1**_
+![]()
+
 ## Difficultés rencontrées : problèmes techniques rencontrés
 
 
