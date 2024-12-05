@@ -2,8 +2,8 @@
 
 ## Membres du groupe de projet (rôles)
 
-**Axel** :  Scrum Master
-**Fred** :  Product Owner
+**Axel** :  Scrum Master  
+**Fred** :  Product Owner  
 **Bastien** : Technicien  
 
 ## Choix techniques : quel OS, quelle version, etc.
