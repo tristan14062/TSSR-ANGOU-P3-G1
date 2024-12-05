@@ -2,11 +2,19 @@
 
 ## Membres du groupe de projet (rôles)
 
-
+**Axel** : 
+**Fred** : 
+**Bastien** : Technicien
 
 ## Choix techniques : quel OS, quelle version, etc.
 
-
+| Miro | Draw.io | | | |
+| :-: | :-: | :-: | :-: | :-: |
+|  |  |  |  |  |
+|  |  |  |  |  |
+|  |  |  |  |  |
+|  |  |  |  |  |
+|  |  |  |  |  |
 
 ## Difficultés rencontrées : problèmes techniques rencontrés
 
