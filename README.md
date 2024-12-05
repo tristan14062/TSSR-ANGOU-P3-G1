@@ -17,7 +17,7 @@
 
   Pour ce projet, nous faisons partie de la société fictive BillU, une filiale du groupe international RemindMe, de plus de 2000 collaborateurs à travers le monde. Cette société est spécialisée dans le développement de logiciels, notamment de facturation. BillU comprend actuellement 167 salariés, répartis dans 9 services (appelés "départements") auxquels viennent, ponctuellement et/ou à temps plein, s'ajouter des agents extérieurs dans certains services. 
 
-  La société possède un seul site dans le 20ème arrondissement à Paris, fonctionne exclusivement avec des PC portables, ne détient pas de matériel d'administration (Ni serveur, ni matériel réseau) et ses perspectives d'évolution à ce jour ne sont pas explicites.
+  Actuellement la société possède un seul site dans le 20ème arrondissement à Paris, fonctionne exclusivement avec des PC portables, ne détient pas de matériel d'administration (Ni serveur, ni matériel réseau) et ses perspectives d'évolution à ce jour ne sont pas explicites.
 
   Concernant le réseau pour les utilisateurs internes, une box FAI et des répéteurs wifi fournissent le réseau en wifi. Le réseau local est 172.18.1.0/24. Une messagerie est hébergée en Cloud sur le web dont le format est le suivant prenom.nom@billu.com. Au niveau de la sécurité, il n'y a pas de matériel spécifique, pas de sécurité d'identité et tous les PC sont en workgroups avec une connexion sans mot de passe. Pour le stockage un NAS indépendant grand public qui stock des données, sans rétention et sans redondance. La téléphonie est fixe et mobile, elle varie selon les utilisateurs. Et enfin pas de nomadisme, ni de télétravail en place.
 
