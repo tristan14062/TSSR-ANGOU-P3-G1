@@ -8,7 +8,7 @@
 
 ## Choix techniques : quel OS, quelle version, etc.
 
-**Miro** pour la gestion de projet via la méthode Scrum.
+**Miro** pour la gestion de projet via la méthode Scrum.  
 **Draw.io** pour la mise en place du schéma réseau prévisionnel de l'infrastructure.
 
 ## Difficultés rencontrées : problèmes techniques rencontrés
