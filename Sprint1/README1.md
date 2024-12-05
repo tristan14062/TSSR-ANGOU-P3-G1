@@ -2,19 +2,14 @@
 
 ## Membres du groupe de projet (rôles)
 
-**Axel** : 
-**Fred** : 
-**Bastien** : Technicien
+**Axel** :  Scrum Master
+**Fred** :  Product Owner
+**Bastien** : Technicien  
 
 ## Choix techniques : quel OS, quelle version, etc.
 
-| Miro | Draw.io | | | |
-| :-: | :-: | :-: | :-: | :-: |
-|  |  |  |  |  |
-|  |  |  |  |  |
-|  |  |  |  |  |
-|  |  |  |  |  |
-|  |  |  |  |  |
+**Miro** pour la gestion de projet via la méthode Scrum.
+**Draw.io** pour la mise en place du schéma réseau prévisionnel de l'infrastructure.
 
 ## Difficultés rencontrées : problèmes techniques rencontrés
 
