@@ -16,7 +16,7 @@
 _**Début de Sprint 1**_  
 ![chrome_wclpA8QQf3.png](https://github.com/WildCodeSchool/TSSR-ANGOU-P3-G1/blob/main/SCREENS-PAR-SPRINT/SCREENS-SPRINT1/chrome_wclpA8QQf3.png)
 
-_**Fin de Sprint 1**_
+_**Fin de Sprint 1**_  
 ![chrome_2NMhU4Ioxb.png](https://github.com/WildCodeSchool/TSSR-ANGOU-P3-G1/blob/main/SCREENS-PAR-SPRINT/SCREENS-SPRINT1/chrome_2NMhU4Ioxb.png)
 
 ## Difficultés rencontrées : problèmes techniques rencontrés
