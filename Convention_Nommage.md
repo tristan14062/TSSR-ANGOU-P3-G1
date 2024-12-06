@@ -1,19 +1,21 @@
-Convention de nommage
-
-  Nom de domaine : localLAN.com (sûrement à changer)
+## Convention de nommage
+<HR>
+  Nom de domaine : BillU.com
 
 OU :
 
-  Structures 
-      - Nombre de niveaux : 
+  ### Structures 
+  
+  Nombre de niveaux : 
               Niveau 1 : Site
               Niveau 2 : Département
               Niveau 3 : Service
-      - Nom : SRV-OS-Fonction-XX
-      - Nom : Ville -
+       Nom : LOC-SRV-OS-Fonction-XX
+       Nom : Ville -
 
   Hiérarchie
       - Par Site - Département - Service
+<HR>
 
 Groupes de sécurité :
 
@@ -25,15 +27,17 @@ Groupes de sécurité :
   Type
     - Local : LO
     - Global : GL
+<HR>
 
-Ordinateurs :
+### Ordinateurs :
 
   Emplacement
         - Critères ?
   Convention de nommage
         TYPE-TYPEAD-DEPARTEMENT-NUMERO
+<HR>
 
-Utilisateurs :
+### Utilisateurs :
 
   Emplacement
         - Critères ? : une zone par département
@@ -42,8 +46,9 @@ Utilisateurs :
         - Prénom, nom, etc. : w.wilder
         - Numérotation : n°département-xx
         - Gestion des homonymes : 2 ou 3 lettres au lieu d'une pour le prénom
+<HR>
 
-GPO : 
+### GPO : 
 
   Convention de nommage
         - Cible/fonction (users, sec, config, ...)
@@ -52,6 +57,8 @@ GPO :
         - but/destination
 
 Groupes Utilisateurs : par fonction
+Ex : GRP-DEP
+     GRP-DEP-FONCTION
   
   Départements :
 
