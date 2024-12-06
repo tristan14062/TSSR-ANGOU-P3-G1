@@ -15,7 +15,7 @@
 
 ## Introduction : mise en contexte
 
-  Pour ce projet, nous faisons partie de la société fictive BillU, une filiale du groupe international RemindMe, de plus de 2000 collaborateurs à travers le monde. Cette société est spécialisée dans le développement de logiciels, notamment de facturation. BillU comprend actuellement 167 salariés, répartis dans 9 services (appelés "départements") auxquels viennent, ponctuellement et/ou à temps plein, s'ajouter des agents extérieurs dans certains services. 
+  Pour ce projet, nous faisons partie de la société fictive BillU, une filiale du groupe international RemindMe, de plus de 2000 collaborateurs à travers le monde. Cette société est spécialisée dans le développement de logiciels, notamment de facturation. BillU comprend actuellement 170 salariés et agents extérieurs, répartis dans 9 services (appelés "départements").
 
   Actuellement la société possède un seul site dans le 20ème arrondissement à Paris, fonctionne exclusivement avec des PC portables, ne détient pas de matériel d'administration (Ni serveur, ni matériel réseau) et ses perspectives d'évolution à ce jour ne sont pas explicites.
 
