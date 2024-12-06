@@ -23,7 +23,7 @@ _**Fin de Sprint 1**_
 
 
 
-## Solutions trouvées : Solutions et alternativex trouvées
+## Solutions trouvées : Solutions et alternative trouvées
 
 
 
