@@ -1,5 +1,7 @@
 <div align="center"><H1> Groupe 1 - Sprint 1 </H1></div>
 
+_Sprint de une semaine_
+
 ## Membres du groupe de projet (rôles)
 
 **Axel** :  Scrum Master  
