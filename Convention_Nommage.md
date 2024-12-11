@@ -1,6 +1,6 @@
 ## Convention de nommage
 <HR>
-  Nom de domaine : BillU.com
+  Nom de domaine : BillU.lan
 
 OU :
 
