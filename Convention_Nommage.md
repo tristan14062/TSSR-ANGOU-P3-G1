@@ -37,6 +37,11 @@ Groupes de sécurité :
         TYPE-TYPEAD-DEPARTEMENT-NUMERO
 <HR>
 
+Serveur : SRV-OS-ROLE-NUMERO
+
+Client : LAP-DEPART-NUMERO
+
+
 ### Utilisateurs :
 
   Emplacement
