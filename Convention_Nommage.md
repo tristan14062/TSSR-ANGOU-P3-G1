@@ -23,7 +23,7 @@
                 Noms : Employés ; Administrateurs ; Machines  
               Niveau 3 : **Site(s)**  
                 Noms : Paris  
-              Niveau 4 : **Groupes d'utilisateurs ; Groupes d'administrateurs ; Clients ; Serveurs**
+              Niveau 4 : **Groupes d'utilisateurs ; Groupes d'administrateurs ; Clients ; Serveurs**  
                 Noms : Utilisateurs ; Administrateurs ; Laptops clients ; Serveurs  
                 
 <HR>
