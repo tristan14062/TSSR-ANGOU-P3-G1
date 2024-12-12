@@ -61,32 +61,32 @@ Login :
 Format Utilisateur : **p.nom**  
 Exemple : w.wilder  
 Gestion des homonymes : 2 ou 3 lettres au lieu d'une pour le prénom  
-Exemple : _wi.wilder_
+Exemple : _wi.wilder_  
 
 Nom dans l'AD :  
 Format : **prénom-nom**  
 (L'appartenance au département est défini dans le groupe utilisateur)  
-Exemple : _wilder-wilder_
+Exemple : _wilder-wilder_  
 
 <HR>
 
 ### GPO : 
 
-Format : **TYPE-CIBLE-NOMGPO-PORTEE**
-Exemple : SCR-USER-ACCESPANNEAUCONFIG-GLO
+Format : **TYPE-CIBLE-NOMGPO-PORTEE**  
+Exemple : SCR-USER-ACCESPANNEAUCONFIG-GLO  
 
 Type : Sécurité (SCR) / Bureau (BUR) / Système (SYS) / Réseau (RES) ...  
-Cible : Utilisateurs (USR) / Ordinateur (LAP / DSK) / Groupe (GRP) / ...
-NOMGPO : (à voir selon la GPO)
+Cible : Utilisateurs (USR) / Ordinateur (LAP / DSK) / Groupe (GRP) / ...  
+NOMGPO : (à voir selon la GPO)  
 Portée : Global (GLO) / Local (LOC) / Domaine (DOM) / ...  
 
 <HR>
 
 ### Groupe Utilisateur :
 
-Groupes Utilisateurs : Par Site / Département
-Format groupe : **GRP-SITE-DEPARTEMENT**
-Exemple : _GRP-PAR-DEV_
+Groupes Utilisateurs : Par Site / Département  
+Format groupe : **GRP-SITE-DEPARTEMENT**  
+Exemple : _GRP-PAR-DEV_  
 
 Départements :
 
