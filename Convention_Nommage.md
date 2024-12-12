@@ -8,9 +8,9 @@
   Nom de domaine Local : BillU.lan  
   FQDN : BillU.lan  
 
-**Sous-domaines :**
-  Format Domaine Web : **web.BillU.fr**
-  Format Domaine Local : **web.BillU.lan**
+**Sous-domaines :**  
+  Format Domaine Web : **web.BillU.com**  
+  Format Domaine Local : **web.BillU.lan**  
 
 <HR>
 
