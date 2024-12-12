@@ -18,13 +18,13 @@
   
   Nombre de niveaux : 
               Niveau 1 : **Entreprise**  
-                Noms : BillU
+                Noms : BillU  
               Niveau 2 : **Catégories**  
-                Noms : Employés ; Administrateurs ; Machines
+                Noms : Employés ; Administrateurs ; Machines  
               Niveau 3 : **Site(s)**  
-                Noms : Paris
+                Noms : Paris  
               Niveau 4 : **Groupes d'utilisateurs ; Groupes d'administrateurs ; Clients ; Serveurs**
-                Noms : Utilisateurs ; Administrateurs ; Laptops clients ; Serveurs
+                Noms : Utilisateurs ; Administrateurs ; Laptops clients ; Serveurs  
                 
 <HR>
 
