@@ -101,7 +101,7 @@ Départements :
     - Développeur
     - Testeur
 
-  - Communication et Relations publiques : **CORP**
+- Communication et Relations publiques : **CORP**
     - Directeur Communication et Relations publiques
     - Responsable relation média
     - Responsable communication
