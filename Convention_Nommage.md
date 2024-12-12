@@ -155,4 +155,5 @@ Départements :
               Niveau 3 : **Site(s)**  
                 Noms : Paris  
               Niveau 4 : **Groupes d'utilisateurs ; Groupes d'administrateurs ; Clients ; Serveurs**  
-                Noms : Utilisateurs ; Administrateurs ; Laptops clients ; Serveurs  
+                Noms : Utilisateurs ; Administrateurs ; Laptops clients ; Serveurs
+![Schema_AD_avec_OU.png](https://github.com/WildCodeSchool/TSSR-ANGOU-P3-G1/blob/main/RESSOURCES/Schema_AD_avec_OU.png)
