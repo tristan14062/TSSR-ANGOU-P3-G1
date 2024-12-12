@@ -93,66 +93,66 @@ Départements :
 - Administrateur **ADMIN**
 
 - Développpement : **DEV**
-                - Directeur dév. log.
-                - Responsable développement
-                - Responsable ana. concept
-                - Responsable recherche
-                - Responsable test et qualité
-                - Développeur
-                - Testeur
+    - Directeur dév. log.
+    - Responsable développement
+    - Responsable ana. concept
+    - Responsable recherche
+    - Responsable test et qualité
+    - Développeur
+    - Testeur
 
   - Communication et Relations publiques : **CORP**
-                - Directeur Communication et Relations publiques
-                - Responsable relation média
-                - Responsable communication
-                - Chargé en droit de la communication
-                - Chargé relation presse
-                - Chargé de communication
-                - Community manager
-                - Rédacteur
-                - Monteur
-                - Photographe
-                - Designer graphique
-                - Webmaster
+    - Directeur Communication et Relations publiques
+    - Responsable relation média
+    - Responsable communication
+    - Chargé en droit de la communication
+    - Chargé relation presse
+    - Chargé de communication
+    - Community manager
+    - Rédacteur
+    - Monteur
+    - Photographe
+    - Designer graphique
+    - Webmaster
 
 - Juridique : **JUR**
-                - Directeur juridique
-                - Juristes
+  - Directeur juridique
+  - Juristes
 
 - Direction : **DIR**
-                - Direction
+  - Direction
 
 - DSI : **DSI**
-                - Directeur DSI
-                - Hotliner
-                - Technicien de maintenance
-                - Technicien d'exploitation
-                - Technicien réseaux
-                - Technicien Système
-                - Développeur
-                - Intégrateur
+  - Directeur DSI
+  - Hotliner
+  - Technicien de maintenance
+  - Technicien d'exploitation
+  - Technicien réseaux
+  - Technicien Système
+  - Développeur
+  - Intégrateur
 
 - Finances et Comptabilité : **FC**
-                - Directeur financier
-                - Conseiller en fiscalité
-                - Controleur de gestion
-                - Analyste financier
-                - Comptable
+  - Directeur financier
+  - Conseiller en fiscalité
+  - Controleur de gestion
+  - Analyste financier
+  - Comptable
 
 - QHSE : **QHSE**
-                - Responsable QHSE
-                - Technicien HSE
-                - Auditeur
-                - Animateur sécurité
+  - Responsable QHSE
+  - Technicien HSE
+  - Auditeur
+  - Animateur sécurité
 
 - Service Commercial : **SCOMR**
-                - Directeur commercial
-                - Responsable achat
-                - Gestionnaire ADV
-                - Commercial
-                - Acheteur
-                - Agent
+  - Directeur commercial
+  - Responsable achat
+  - Gestionnaire ADV
+  - Commercial
+  - Acheteur
+  - Agent
 
 - Service Recrutement : **RH**
-                - Responsable recrutement
-                - Agent RH
+  - Responsable recrutement
+  - Agent RH
