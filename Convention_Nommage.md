@@ -90,9 +90,9 @@ Exemple : _GRP-PAR-DEV_
 
 Départements :
 
-        Administrateur **ADMIN**
+- Administrateur **ADMIN**
 
-        Développpement : **DEV**
+- Développpement : **DEV**
                 - Directeur dév. log.
                 - Responsable développement
                 - Responsable ana. concept
@@ -101,7 +101,7 @@ Départements :
                 - Développeur
                 - Testeur
 
-        Communication et Relations publiques : **CORP**
+  - Communication et Relations publiques : **CORP**
                 - Directeur Communication et Relations publiques
                 - Responsable relation média
                 - Responsable communication
@@ -115,14 +115,14 @@ Départements :
                 - Designer graphique
                 - Webmaster
 
-        Juridique : **JUR**
+- Juridique : **JUR**
                 - Directeur juridique
                 - Juristes
 
-        Direction : **DIR**
+- Direction : **DIR**
                 - Direction
 
-        DSI : **DSI**
+- DSI : **DSI**
                 - Directeur DSI
                 - Hotliner
                 - Technicien de maintenance
@@ -132,20 +132,20 @@ Départements :
                 - Développeur
                 - Intégrateur
 
-        Finances et Comptabilité : **FC**
+- Finances et Comptabilité : **FC**
                 - Directeur financier
                 - Conseiller en fiscalité
                 - Controleur de gestion
                 - Analyste financier
                 - Comptable
 
-        QHSE : **QHSE**
+- QHSE : **QHSE**
                 - Responsable QHSE
                 - Technicien HSE
                 - Auditeur
                 - Animateur sécurité
 
-        Service Commercial : **SCOMR**
+- Service Commercial : **SCOMR**
                 - Directeur commercial
                 - Responsable achat
                 - Gestionnaire ADV
@@ -153,6 +153,6 @@ Départements :
                 - Acheteur
                 - Agent
 
-        Service Recrutement : **RH**
+- Service Recrutement : **RH**
                 - Responsable recrutement
                 - Agent RH
