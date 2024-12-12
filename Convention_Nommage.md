@@ -3,7 +3,7 @@
 
 ### Domaine :
 
-**Domaine principal :**
+**Domaine principal :**  
   Nom de domaine Internet : BillU.com  
   Nom de domaine Local : BillU.lan  
   FQDN : BillU.lan  
