@@ -147,7 +147,7 @@ Départements :
 
 ### Organisation Units :
   
-  Nombre de niveaux : 
+  Nombre de niveaux :  
               Niveau 1 : **Entreprise**  
                 Noms : BillU  
               Niveau 2 : **Catégories**  
