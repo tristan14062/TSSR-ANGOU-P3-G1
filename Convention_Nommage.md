@@ -70,9 +70,9 @@ Portée : Global (GLO) / Local (LOC) / Domaine (DOM) / ...
 
 ### Groupe Utilisateur :
 
-Groupes Utilisateurs : Par Site / Département  
-Format groupe : **GRP-SITE-DEPARTEMENT**  
-Exemple : _GRP-PAR-DEV_  
+Groupes Utilisateurs : Par Site / Département / Service 
+Format groupe : **GRP-SITE-DEPARTEMENT-SERVICE**  
+Exemple : _GRP-PAR-DEV-DSI_  
 
 Départements :
 
