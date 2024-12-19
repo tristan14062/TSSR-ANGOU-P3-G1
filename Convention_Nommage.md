@@ -14,22 +14,6 @@
 
 <HR>
 
-### Groupes de sécurité : 
-
-Gère les autorisations (groupe amdin)
-
-???????????????????????????????????????????????????????????????????????????????????????????  
-??  Convention de nommage par contenu                                                    ??  
-??    - Utilisateur : w.wilder                                                           ??  
-??    - Ordinateur : Type-Type_AD-Département-Numéro                                     ??  
-??    - Fonctionnalité : Attribution des droits par type de serveur (1 DC, 1 DHCP, 1 DNS)??  
-??                                                                                       ??  
-??  Type                                                                                 ??  
-??    - Local : LO                                                                       ??  
-??    - Global : GL                                                                      ??  
-???????????????????????????????????????????????????????????????????????????????????????????  
-
-<HR>
 
 ### Ordinateurs :
 
@@ -68,80 +52,128 @@ Portée : Global (GLO) / Local (LOC) / Domaine (DOM) / ...
 
 <HR>
 
-### Groupe Utilisateur :
+### Groupe Utilisateurs ( Groupes de sécurité et de diffusion ): 
 
-Groupes Utilisateurs : Par Site / Département / Service 
+Groupes par Site / Département / Service 
 Format groupe : **GRP-SITE-DEPARTEMENT-SERVICE**  
-Exemple : _GRP-PAR-DEV-DSI_  
+Exemple : _GRP-PAR-DEV-TEST_  
+
+Goupes de sécurité par Site / Département / Fonction
+
+Format groupe : **GRP-SITE-DEPARTEMENT-FONCTION**  
+Exemple : _GRP-PAR-DSI-HOT_ 
+
 
 Départements :
 
 - Administrateur **ADMIN**
 
-- Développpement : **DEV**
-    - Directeur dév. log.
-    - Responsable développement
-    - Responsable ana. concept
-    - Responsable recherche
-    - Responsable test et qualité
-    - Développeur
-    - Testeur
+- Département Développpement logiciel : **DEV**
+    Fonctions
+    - Directeur dév. log. **DDL**
+    - Responsable développement **RD**
+    - Responsable ana. concept **RAC**
+    - Responsable recherche **RR**
+    - Responsable test et qualité **RTQ**
+    - Développeur **DEV**
+    - Testeur **TST**
+   Services
+    - Developpement : **DVL**
+    - Analyse et conception : **ANC**
+    - Recherche et prototype : **REP**
+    - Test et qualité : **TEQ**
+  
 
-- Communication et Relations publiques : **CORP**
-    - Directeur Communication et Relations publiques
-    - Responsable relation média
-    - Responsable communication
-    - Chargé en droit de la communication
-    - Chargé relation presse
-    - Chargé de communication
-    - Community manager
-    - Rédacteur
-    - Monteur
-    - Photographe
-    - Designer graphique
-    - Webmaster
+- Département Communication et Relations publiques : **CORP**
+    Fonctions
+    - Directeur Communication et Relations publiques **DCRP**
+    - Responsable relation média **RRM**
+    - Responsable communication **RC**
+    - Chargé en droit de la communication **CDCO**
+    - Chargé relation presse **CRP**
+    - Chargé de communication **CC**
+    - Community manager **COMA**
+    - Rédacteur **REDAC**
+    - Monteur **MONT**
+    - Photographe **PHOTO**
+    - Designer graphique  **DEGRA**
+    - Webmaster **WEBMAS**
+    Services
+    - Communication interne : **COI**
+    - Gestion des marques : **GEM**
+    - Relation médias : **REM**
 
-- Juridique : **JUR**
-  - Directeur juridique
-  - Juristes
+- Département Juridique : **JUR**
+    Fonctions
+    - Directeur juridique **DIRJU**
+    - Juristes **JUR**
+    Services
+    - Droits des sociétés : **DRS**
+    - Propriété intellectuelle : **PRI**
+    - Protection des données et conformité : **PDC**
 
-- Direction : **DIR**
-  - Direction
+- Département Direction : **DIR**
+    Fonctions
+    - CEO **CEO**
+    - Assistant de direction **ASDI**
+    - Directeur Adjoint **DIAD**
 
-- DSI : **DSI**
-  - Directeur DSI
-  - Hotliner
-  - Technicien de maintenance
-  - Technicien d'exploitation
-  - Technicien réseaux
-  - Technicien Système
-  - Développeur
-  - Intégrateur
+- Département DSI : **DSI**
+    Fonctions
+    - Directeur DSI **DIDSI**
+    - Hotliner **HOT**
+    - Technicien de maintenance **TEMA**
+    - Technicien d'exploitation **TEEX**
+    - Technicien réseaux **TERE**
+    - Technicien Système **TESY**
+    -  Développeur **DVL**
+    - Intégrateur **INT**
+    Services
+    - Developpement et intégration **DEVIN**
+    - Support **SUP**
+    - Exploitation **EXP**
+    - Administration systèmes et réseaux **ASR**
+    - Developpement et intégrationn **DEVI**
 
-- Finances et Comptabilité : **FC**
-  - Directeur financier
-  - Conseiller en fiscalité
-  - Controleur de gestion
-  - Analyste financier
-  - Comptable
+- Département Finances et Comptabilité : **FC**
+     Fonctions
+     - Directeur financier **DIRFIN**
+     - Conseiller en fiscalité **CONFI**
+     - Controleur de gestion **CONGE**
+     - Analyste financier **ANFIN**
+     - Comptable **COMP**
+     Services
+     - Finance **FINA**
+     - Service comptabilité **SERCOM**
+     - Fiscalité **FISCA**
+  
+- Département QHSE : **QHSE**
+     - Responsable QHSE **REQHSE**
+     - Technicien HSE **TECHSE**
+     - Auditeur **AUDI**
+     - Animateur sécurité **ANSEC**
+     Services
+     - Certification **CERTI**
+     - Contôle qualité **CONQU**
+     - Gestion environnementale **GEENV**
 
-- QHSE : **QHSE**
-  - Responsable QHSE
-  - Technicien HSE
-  - Auditeur
-  - Animateur sécurité
+- Département Service Commercial : **SCOMR**
+    Fonctions
+    - Directeur commercial **DIRCOM**
+    - Responsable achat **REACH**
+    - Gestionnaire ADV **GADV**
+    - Commercial **COME**
+    - Acheteur **ACH**
+    - Agent **AGE**
+    Services
+    - ADV **ADV**
+    - B2B **B2B**
 
-- Service Commercial : **SCOMR**
-  - Directeur commercial
-  - Responsable achat
-  - Gestionnaire ADV
-  - Commercial
-  - Acheteur
-  - Agent
 
-- Service Recrutement : **RH**
-  - Responsable recrutement
-  - Agent RH
+- Département Service Recrutement : **RH**
+    Fonction
+  - Responsable recrutement **RERE**
+  - Agent RH **ARH**
 
 <HR>
 
