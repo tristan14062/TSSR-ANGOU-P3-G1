@@ -99,7 +99,7 @@ Départements :
     - Chargé en droit de la communication **CDCO**
     - Chargé relation presse **CRP**
     - Chargé de communication **CC**
-    - Community manager **COMA**
+    - Community manager **COMA** (COMA / COMAINT)
     - Rédacteur **REDAC**
     - Monteur **MONT**
     - Photographe **PHOTO**
@@ -115,7 +115,8 @@ Départements :
   
     Fonctions
     - Directeur juridique **DIRJU**
-    - Juristes **JUR**
+    - Juristes **JURI** (JURIDRS / JURIPRI)
+    - Avocat **AVOC**
       
     Services
     - Droits des sociétés : **DRS**
@@ -138,6 +139,7 @@ Départements :
     - Technicien d'exploitation **TEEX**
     - Technicien réseaux **TERE**
     - Technicien Système **TESY**
+    - Technicien Sytèmes et Réseaux **TESYRE**DSI-IDANFIN
     -  Développeur **DVL**
     - Intégrateur **INT**
       
@@ -148,7 +150,7 @@ Départements :
     - Administration systèmes et réseaux **ASR**
     - Developpement et intégrationn **DEVI**
 
-- Département Finances et Comptabilité : **FC**
+- Département Finances et Comptabilité : **FIN**
   
      Fonctions
      - Directeur financier **DIRFIN**
@@ -181,13 +183,16 @@ Départements :
     - Directeur commercial **DIRCOM**
     - Responsable achat **REACH**
     - Gestionnaire ADV **GADV**
+    - Responsable ADV **RADV**
     - Commercial **COME**
-    - Acheteur **ACH**
+    - Acheteur **AC**
     - Agent **AGE**
       
     Services
     - ADV **ADV**
     - B2B **B2B**
+    - Achat **ACH**
+    - Client **CLI**
 
 
 - Département Service Recrutement : **RH**
