@@ -54,11 +54,11 @@ Portée : Global (GLO) / Local (LOC) / Domaine (DOM) / ...
 
 ### Groupe Utilisateurs ( Groupes de sécurité et de diffusion ): 
 
-Groupes par Site / Département / Service 
+Groupes de sécurités par  Site / Département / Service 
 Format groupe : **GRP-SITE-DEPARTEMENT-SERVICE**  
 Exemple : _GRP-PAR-DEV-TEST_  
 
-Goupes de sécurité par Site / Département / Fonction
+Goupes de sécurité par  Site / Département / Fonction
 
 Format groupe : **GRP-SITE-DEPARTEMENT-FONCTION**  
 Exemple : _GRP-PAR-DSI-HOT_ 
@@ -66,9 +66,14 @@ Exemple : _GRP-PAR-DSI-HOT_
 
 Départements :
 
-- Administrateur **ADMIN**
+- Administrateurs **ADMIN**
+
+    - Administrateur Controleur de domaine **ADMDC**
+    - Administrateur DHCP **ADMDHCP**    
+  
 
 - Département Développpement logiciel : **DEV**
+  
     Fonctions
     - Directeur dév. log. **DDL**
     - Responsable développement **RD**
@@ -77,6 +82,7 @@ Départements :
     - Responsable test et qualité **RTQ**
     - Développeur **DEV**
     - Testeur **TST**
+      
    Services
     - Developpement : **DVL**
     - Analyse et conception : **ANC**
@@ -85,6 +91,7 @@ Départements :
   
 
 - Département Communication et Relations publiques : **CORP**
+  
     Fonctions
     - Directeur Communication et Relations publiques **DCRP**
     - Responsable relation média **RRM**
@@ -98,27 +105,32 @@ Départements :
     - Photographe **PHOTO**
     - Designer graphique  **DEGRA**
     - Webmaster **WEBMAS**
+      
     Services
     - Communication interne : **COI**
     - Gestion des marques : **GEM**
     - Relation médias : **REM**
 
 - Département Juridique : **JUR**
+  
     Fonctions
     - Directeur juridique **DIRJU**
     - Juristes **JUR**
+      
     Services
     - Droits des sociétés : **DRS**
     - Propriété intellectuelle : **PRI**
     - Protection des données et conformité : **PDC**
 
 - Département Direction : **DIR**
+  
     Fonctions
     - CEO **CEO**
     - Assistant de direction **ASDI**
     - Directeur Adjoint **DIAD**
 
 - Département DSI : **DSI**
+  
     Fonctions
     - Directeur DSI **DIDSI**
     - Hotliner **HOT**
@@ -128,6 +140,7 @@ Départements :
     - Technicien Système **TESY**
     -  Développeur **DVL**
     - Intégrateur **INT**
+      
     Services
     - Developpement et intégration **DEVIN**
     - Support **SUP**
@@ -136,28 +149,34 @@ Départements :
     - Developpement et intégrationn **DEVI**
 
 - Département Finances et Comptabilité : **FC**
+  
      Fonctions
      - Directeur financier **DIRFIN**
      - Conseiller en fiscalité **CONFI**
      - Controleur de gestion **CONGE**
      - Analyste financier **ANFIN**
      - Comptable **COMP**
+       
      Services
      - Finance **FINA**
      - Service comptabilité **SERCOM**
      - Fiscalité **FISCA**
   
 - Département QHSE : **QHSE**
+
+     Fonctions
      - Responsable QHSE **REQHSE**
      - Technicien HSE **TECHSE**
      - Auditeur **AUDI**
      - Animateur sécurité **ANSEC**
+       
      Services
      - Certification **CERTI**
      - Contôle qualité **CONQU**
      - Gestion environnementale **GEENV**
 
 - Département Service Commercial : **SCOMR**
+  
     Fonctions
     - Directeur commercial **DIRCOM**
     - Responsable achat **REACH**
@@ -165,12 +184,14 @@ Départements :
     - Commercial **COME**
     - Acheteur **ACH**
     - Agent **AGE**
+      
     Services
     - ADV **ADV**
     - B2B **B2B**
 
 
 - Département Service Recrutement : **RH**
+  
     Fonction
   - Responsable recrutement **RERE**
   - Agent RH **ARH**
