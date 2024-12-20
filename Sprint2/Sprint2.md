@@ -23,11 +23,19 @@ _**Fin de Sprint 1**_
 
 ## Difficultés rencontrées : problèmes techniques rencontrés
 
-
+1. Accès à Proxmox tardif
+2. Problème de place sur le ceph-data, perte de temps avec le clonage
+3. Convention de nommage des groupes de sécurité non adaptée à la structure de l'Active Directory
+4. Conversion du .xls en .csv, problème de lecture des accents, des apostrophes et certains caractères non reconnus
+5. .Replace n'a pas permis de gérer les apostrophes
 
 ## Solutions trouvées : Solutions et alternative trouvées
 
-
+1. Les quêtes AD et Proxmox ont permis de pratiquer et donc de faire gagner un peu de temps 
+2. Revue de la communication avec le client
+3. Les groupes de sécurité ont été renommé
+4. Retrait des accents du tableur et gestion des apostrophes
+5. L'Active Directory prend les apostrophes (pas de problème pour la création des utilisateurs)
 
 ## Améliorations possibles : suggestions d'améliorations futures
 
