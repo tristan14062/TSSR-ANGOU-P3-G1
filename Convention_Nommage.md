@@ -73,7 +73,13 @@ Départements :
   
 
 - Département Développpement logiciel : **DEV**
-  
+
+Services
+    - Developpement : **DVL**
+    - Analyse et conception : **ANC**
+    - Recherche et prototype : **REP**
+    - Test et qualité : **TEQ**
+
     Fonctions
     - Directeur dév. log. **DDL**
     - Responsable développement **RD**
@@ -82,13 +88,6 @@ Départements :
     - Responsable test et qualité **RTQ**
     - Développeur **DEV**
     - Testeur **TST**
-      
-   Services
-    - Developpement : **DVL**
-    - Analyse et conception : **ANC**
-    - Recherche et prototype : **REP**
-    - Test et qualité : **TEQ**
-  
 
 - Département Communication et Relations publiques : **CORP**
   
