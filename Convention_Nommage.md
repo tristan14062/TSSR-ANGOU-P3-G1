@@ -74,13 +74,13 @@ Départements :
 
 - Département Développpement logiciel : **DEV**
 
-Services
+  Services
     - Developpement : **DVL**
     - Analyse et conception : **ANC**
     - Recherche et prototype : **REP**
     - Test et qualité : **TEQ**
     
-Fonctions
+  Fonctions
     - Directeur dév. log. **DDL**
     - Responsable développement **RD**
     - Responsable ana. concept **RAC**
