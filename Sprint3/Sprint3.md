@@ -24,6 +24,8 @@ _**Fin de Sprint 1**_
 ## Difficultés rencontrées : problèmes techniques rencontrés
 
 1. Expiration de la licence Windows Server 2022
+2. Problèmes lors de la connexion SSH
+3. Github (IPv4) n'est pas accessible depuis le Proxmox (IPv6)
 
 ## Solutions trouvées : Solutions et alternative trouvées
 
