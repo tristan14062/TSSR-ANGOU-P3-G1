@@ -59,3 +59,15 @@ Renseignez le nom du serveur redondant (ici SRV-WIN-DC-02), sélectionnez le pui
 Une fois le serveur ajouté à la liste, nous allons ajouter les rôles AD-DS et DNS au serveur.
 
 Clique droit sur le DC2 -> *Ajouter des rôles et fonctionnalités* 
+
+Avancez dans les menus jusqu'à la sélection du serveur 
+
+![](https://i.imgur.com/CROhKaN.png)
+
+Sélectionez les rôles AD DS et DNS 
+
+![](https://i.imgur.com/YQV9L44.png)
+
+Suivant jusqu'à l'installation des rôles. Le serveur redémarrera une fois les rôles installés.
+
+__ /!\ En cas de panne du DC1, le DC2 prendra le relai pour le DNS. Cependant il faut le renseignez sur les machines comme DNS alternatif dans les paramètres réseau de l'interface. Si il n'est pas renseignez, votre redondance ne sera pas prise en compte. /!\__
