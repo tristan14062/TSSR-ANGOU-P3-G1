@@ -70,4 +70,8 @@ Sélectionez les rôles AD DS et DNS
 
 Suivant jusqu'à l'installation des rôles. Le serveur redémarrera une fois les rôles installés.
 
+Nous pouvons constater que les rôles sont bien installés et pris en compte dans le *Tableau de bord*
+
+![](https://i.imgur.com/eamA1VM.png)
+
 __En cas de panne du DC1, le DC2 prendra le relai pour le DNS. Cependant il faut le renseignez sur les machines comme DNS alternatif dans les paramètres réseau de l'interface. Si il n'est pas renseignez, votre redondance ne sera pas prise en compte.__
