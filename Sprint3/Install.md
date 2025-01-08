@@ -1,4 +1,6 @@
-#### Rejoindre l'AD-DS avec le serveur Debian
+<div align="center"><H1> Install -  Sprint 2 </H1></div>
+
+## Rejoindre l'AD-DS avec le serveur Debian
 
 ### Étape 1 : Préparer le serveur Debian
 1. **Mettre à jour le système** :
