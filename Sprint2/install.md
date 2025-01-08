@@ -70,4 +70,4 @@ Sélectionez les rôles AD DS et DNS
 
 Suivant jusqu'à l'installation des rôles. Le serveur redémarrera une fois les rôles installés.
 
-__ /!\ En cas de panne du DC1, le DC2 prendra le relai pour le DNS. Cependant il faut le renseignez sur les machines comme DNS alternatif dans les paramètres réseau de l'interface. Si il n'est pas renseignez, votre redondance ne sera pas prise en compte. /!\__
+__En cas de panne du DC1, le DC2 prendra le relai pour le DNS. Cependant il faut le renseignez sur les machines comme DNS alternatif dans les paramètres réseau de l'interface. Si il n'est pas renseignez, votre redondance ne sera pas prise en compte.__
