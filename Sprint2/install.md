@@ -1,7 +1,7 @@
 <div align="center"><H1> Install -  Sprint 2 </H1></div>
 
 _______
-## AD-DS / Rôles
+# AD-DS / Rôles
 
 - Installation
 
@@ -12,6 +12,50 @@ GUI
     OU (1 exemple)
     Groupe (1 exemple)
 
-Core
-    ajout du rôle AD/DNS
-    du domaine
+## Redondance AD/DS avec un serveur Core
+
+### Prérecquis
+
+> Windows server (même version que le DC1) installé sur la machine avec une IP sur le même réseau que le domaine. Nous utiliserons ici un server Core (CLI)
+> 
+> Domaine déjà existant (cf Installation AD-DS au dessus). Ici BillU.lan
+
+
+<HR>
+
+### Paramétrage du serveur
+
+L'adresse IP étant déjà configurée, il suffit de rentrer l'adresse du DNS (celle du DC1)
+
+Il est possible de le faire via le Sconfig dans les paramètres réseau ou en ligne de commande (PowerShell)
+
+```
+Set-DnsClientServerAddress -InterfaceIndex 5 -ServerAddresses ("172.18.1.100")
+```
+Veillez à adapter avec l'index de votre interface réseau et l'adresse de votre DC. Ici c'est l'index d'interface 5 et l'ip de norte DC est *172.18.1.101*
+
+Une fois le DNS renseigné. Ajouter le serveur au domaine. Il est possible de le faire via le Sconfig dans la premier rubrique *Domaine ou groupe de travail* ou en ligne de commande (PowerShell)
+Il faut un utilisateur autorisé (ici nous utilisons le compte administrateur du domaine)
+
+```
+Add-Computer -DomainName BillU.lan -Credential Administrator@BillU.lan
+```
+Redémarrer le serveur afin d'appliquer les paramètres.
+
+<HR>
+
+### Ajouter les rôles AD-DS et DNS à la redondance
+
+La redondance étant en CLI, nous allons passé par le DC1 (qui est en GUI) afin d'ajouter les rôles AD-DS et DNS à celui-ci.
+
+Dans le Gestionnaire de serveur, clique droit sur *Tout les serveurs*  -> *Ajouter des serveurs*
+
+![](https://i.imgur.com/fUI6oJw.png)
+
+Renseignez le nom du serveur redondant (ici SRV-WIN-DC-02), sélectionnez le puis appuyer sur la flèche pour l'ajouter à la liste et validez.
+
+![](https://i.imgur.com/7qUecQ4.png)
+
+Une fois le serveur ajouté à la liste, nous allons ajouter les rôles AD-DS et DNS au serveur.
+
+Clique droit sur le DC2 -> *Ajouter des rôles et fonctionnalités* 
