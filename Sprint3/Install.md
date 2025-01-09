@@ -61,6 +61,8 @@
 
 #### 5 : Verrouillage de compte (Après un nombre d'erreurs de mot de passe définie)
 
+#### 6 : Blocage de l'accès au cmd
+
 ### Les GPO Standards
 
 #### 1 : Fond d'écran
