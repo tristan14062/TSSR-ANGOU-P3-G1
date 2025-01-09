@@ -1,4 +1,4 @@
-<div align="center"><H1> Install -  Sprint 2 </H1></div>
+<div align="center"><H1> Install -  Sprint 3 </H1></div>
 
 ## Rejoindre l'AD-DS avec le serveur Debian
 
@@ -46,3 +46,29 @@
    ```bash
    realm list
    ```
+
+## Les GPO
+
+### Les GPO de sécurité
+
+#### 1 : Blocage complet du panneau de config
+
+#### 2 : Sécurité PowerShell + CMD
+
+#### 3 : Restriction des périphériques amovibles
+
+#### 4 : Ecran de veille avec MDP en sortie
+
+#### 5 : Verrouillage de compte (Après un nombre d'erreurs de mot de passe définie)
+
+### Les GPO Standards
+
+#### 1 : Fond d'écran
+
+#### 2 : Mappage de lecteur
+
+#### 3 : Redirection de dossier
+
+#### 4 : Déploiement de logiciels
+
+#### 5 : Gestion de l'alimentation
