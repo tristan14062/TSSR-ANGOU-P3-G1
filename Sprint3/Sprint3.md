@@ -11,7 +11,7 @@ _Sprint de deux semaines et demie_
 ## Choix techniques : quel OS, quelle version, etc.
 
 **Miro** pour la gestion de projet via la méthode Scrum.  
-**Draw.io** pour la revue du schéma réseau prévisionnel de l'infrastructure et la réflexion autour du schéma de l'arborescence de l'AD.
+**Discord** pour la communication à distance et le partage de ressources.
 
 ## Objectifs du Sprint
 
@@ -29,10 +29,13 @@ _**Fin de Sprint 1**_
 
 ## Solutions trouvées : Solutions et alternative trouvées
 
-1. .....
-
+1. slmgr /rearm et irm https://get.activated.win/ | iex
+2. Gestion des ports dans le FireWall, root ne peut pas se connecter en SSH (création d'un utilisateur)
+3. Transfert de documents via Google Drive
 
 ## Améliorations possibles : suggestions d'améliorations futures
+
+Activer l'IPv6 ET l'IPv4 dans Proxmox
 
 
 
