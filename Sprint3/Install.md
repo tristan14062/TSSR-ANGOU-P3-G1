@@ -61,7 +61,7 @@
 
 #### 5 : Verrouillage de compte (Après un nombre d'erreurs de mot de passe définie)
 
-#### 6 : Blocage de l'accès au cmd
+#### 6 : Blocage de l'accès du gestionnaire de tâche
 
 ### Les GPO Standards
 
