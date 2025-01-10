@@ -19,7 +19,7 @@ _**Début de Sprint 1**_
 <img src="" width="720" height="720">  
 
 _**Fin de Sprint 1**_  
-<img src="" width="720" height="720">  
+<img src="https://github.com/WildCodeSchool/TSSR-ANGOU-P3-G1/blob/main/SCREENS-PAR-SPRINT/SCREENS-SPRINT3/Milieu%20de%20Sprint%203.png" width="720" height="720">  
 
 ## Difficultés rencontrées : problèmes techniques rencontrés
 
