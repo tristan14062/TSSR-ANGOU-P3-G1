@@ -7,76 +7,72 @@ _______
 
 Dans le gestionnaire de serveur, cliquer sur **Ajouter des rôles et des fonctionnalités**.
 
-![]()
+![VirtualBoxVM_JKgLIjavg0.png](https://github.com/WildCodeSchool/TSSR-ANGOU-P3-G1/blob/main/SCREENS-PAR-SPRINT/SCREENS_SPRINT2/Projet%203%20-%20Install%20ADDS%20-%20NEW%20FOREST/VirtualBoxVM_JKgLIjavg0.png)
 
 Sélectionner **Installation basée sur un rôle ou une fonctionnalité**.
 
-![]()
+![VirtualBoxVM_VITJ4JsWBn.png](https://github.com/WildCodeSchool/TSSR-ANGOU-P3-G1/blob/main/SCREENS-PAR-SPRINT/SCREENS_SPRINT2/Projet%203%20-%20Install%20ADDS%20-%20NEW%20FOREST/VirtualBoxVM_VITJ4JsWBn.png)
 
 Choisir la bonne machine serveur, ici **SRV-WIN-DC-01**.
 
-![]()
+![VirtualBoxVM_3eODZqp0aG.png](https://github.com/WildCodeSchool/TSSR-ANGOU-P3-G1/blob/main/SCREENS-PAR-SPRINT/SCREENS_SPRINT2/Projet%203%20-%20Install%20ADDS%20-%20NEW%20FOREST/VirtualBoxVM_3eODZqp0aG.png)
 
 Cocher la case **Service AD DS**.
 
-![]()
-
-Valider en cliquant sur **Suivant**.
-
-![]()
+![VirtualBoxVM_yCuW0aWMiT.png](https://github.com/WildCodeSchool/TSSR-ANGOU-P3-G1/blob/main/SCREENS-PAR-SPRINT/SCREENS_SPRINT2/Projet%203%20-%20Install%20ADDS%20-%20NEW%20FOREST/VirtualBoxVM_yCuW0aWMiT.png)
 
 Cliquer sur **Ajouter des fonctionnaités**.
 
-![]()
+![VirtualBoxVM_DpENCd75Xu.png](https://github.com/WildCodeSchool/TSSR-ANGOU-P3-G1/blob/main/SCREENS-PAR-SPRINT/SCREENS_SPRINT2/Projet%203%20-%20Install%20ADDS%20-%20NEW%20FOREST/VirtualBoxVM_DpENCd75Xu.png)
+
+Valider en cliquant sur **Suivant**.
+
+![VirtualBoxVM_JMVSO44jbO.png](https://github.com/WildCodeSchool/TSSR-ANGOU-P3-G1/blob/main/SCREENS-PAR-SPRINT/SCREENS_SPRINT2/Projet%203%20-%20Install%20ADDS%20-%20NEW%20FOREST/VirtualBoxVM_JMVSO44jbO.png)
 
 Puis sur **Installer**.
 
-![]()
+![VirtualBoxVM_7gd3n9JYhf.png](https://github.com/WildCodeSchool/TSSR-ANGOU-P3-G1/blob/main/SCREENS-PAR-SPRINT/SCREENS_SPRINT2/Projet%203%20-%20Install%20ADDS%20-%20NEW%20FOREST/VirtualBoxVM_7gd3n9JYhf.png)
 
 A la fin de l'installation, cliquer sur **Promouvoir ce serveur en controleur de domaine**.
 
-![]()
+![VirtualBoxVM_xncxV92ev3.png](https://github.com/WildCodeSchool/TSSR-ANGOU-P3-G1/blob/main/SCREENS-PAR-SPRINT/SCREENS_SPRINT2/Projet%203%20-%20Install%20ADDS%20-%20NEW%20FOREST/VirtualBoxVM_xncxV92ev3.png)
 
 Choisir **Ajouter une nouvelle forêt et indiquer un nom de domaine**.
 
-![]()
+![VirtualBoxVM_j4kPV7Uqap.png](https://github.com/WildCodeSchool/TSSR-ANGOU-P3-G1/blob/main/SCREENS-PAR-SPRINT/SCREENS_SPRINT2/Projet%203%20-%20Install%20ADDS%20-%20NEW%20FOREST/VirtualBoxVM_j4kPV7Uqap.png)
 
 Cocher **Serveur DNS** et renseigner le **mot de passe de restauration des services d'annuaire**.
 
-![]()
+![VirtualBoxVM_OKHD5WgPsV.png](https://github.com/WildCodeSchool/TSSR-ANGOU-P3-G1/blob/main/SCREENS-PAR-SPRINT/SCREENS_SPRINT2/Projet%203%20-%20Install%20ADDS%20-%20NEW%20FOREST/VirtualBoxVM_OKHD5WgPsV.png)
 
 Cliquer sur **Suivant**.
 
-![]()
+![VirtualBoxVM_R1W4JF2Nn9.png](https://github.com/WildCodeSchool/TSSR-ANGOU-P3-G1/blob/main/SCREENS-PAR-SPRINT/SCREENS_SPRINT2/Projet%203%20-%20Install%20ADDS%20-%20NEW%20FOREST/VirtualBoxVM_R1W4JF2Nn9.png)
 
 Laisser le **nom de domaine NetBIOS** par défaut (le personnaliser au besoin).
 
-![]()
+![VirtualBoxVM_iRRhRgbi6V.png](https://github.com/WildCodeSchool/TSSR-ANGOU-P3-G1/blob/main/SCREENS-PAR-SPRINT/SCREENS_SPRINT2/Projet%203%20-%20Install%20ADDS%20-%20NEW%20FOREST/VirtualBoxVM_iRRhRgbi6V.png)
 
 Encore une fois laisser les valeurs par défaut puis **Suivant**.
 
-![]()
+![VirtualBoxVM_C2mDeMwVwH.png](https://github.com/WildCodeSchool/TSSR-ANGOU-P3-G1/blob/main/SCREENS-PAR-SPRINT/SCREENS_SPRINT2/Projet%203%20-%20Install%20ADDS%20-%20NEW%20FOREST/VirtualBoxVM_C2mDeMwVwH.png)
 
 Un récapitulatif de l'installation apparaît, cliquer sur **Suivant**.
 
-![]()
+![VirtualBoxVM_FgrGZDQbUn.png](https://github.com/WildCodeSchool/TSSR-ANGOU-P3-G1/blob/main/SCREENS-PAR-SPRINT/SCREENS_SPRINT2/Projet%203%20-%20Install%20ADDS%20-%20NEW%20FOREST/VirtualBoxVM_FgrGZDQbUn.png)
 
 Cliquer sur **Installer**.
 
-![]()
+![VirtualBoxVM_zuAYRjEGR1.png](https://github.com/WildCodeSchool/TSSR-ANGOU-P3-G1/blob/main/SCREENS-PAR-SPRINT/SCREENS_SPRINT2/Projet%203%20-%20Install%20ADDS%20-%20NEW%20FOREST/VirtualBoxVM_zuAYRjEGR1.png)
 
 Cliquer sur **Fermer**.
 
-![]()
+![VirtualBoxVM_4Jd6IccS6t.png](https://github.com/WildCodeSchool/TSSR-ANGOU-P3-G1/blob/main/SCREENS-PAR-SPRINT/SCREENS_SPRINT2/Projet%203%20-%20Install%20ADDS%20-%20NEW%20FOREST/VirtualBoxVM_4Jd6IccS6t.png)
 
 L'**AD DS** apparaît bien dans le gestonnaire de serveur.
 
-![]()
+![VirtualBoxVM_1XNd6eAw0k.png](https://github.com/WildCodeSchool/TSSR-ANGOU-P3-G1/blob/main/SCREENS-PAR-SPRINT/SCREENS_SPRINT2/Projet%203%20-%20Install%20ADDS%20-%20NEW%20FOREST/VirtualBoxVM_1XNd6eAw0k.png)
 
-GUI
-    ajout du rôle AD/DNS
-    création de la forêt
-    du domaine
     OU (1 exemple)
     Groupe (1 exemple)
 
