@@ -79,7 +79,7 @@
 
 ## 3) GLPI
 
-IMAGE LOGO GLPI
+![GLPI](https://github.com/TSSR-ANGOU-P3-G1/blob/main/images/logo_GLPI.png)
 
 ### A) Installation et configuration de GLPI version 10.0.17 sur un serveur Linux distribution Debian 12
 
@@ -133,27 +133,32 @@ Choix des solutions pour répondre aux prérquis :
   
   
 
-  IMAGE Secure_BD.png
+  ![GLPI](https://github.com/TSSR-ANGOU-P3-G1/blob/main/images/Secure_BD.png)
 
   Création dela base de données dédiée pour GLPI :
+  Connexion à votre instance MariaDB, Saisir le mot de passe Root défini à l'étape précédente
 
 
 ```
    sudo mysql -u root -p
    ```
   
-  (Connexion-vous à votre instance MariaDB, Saisir le mot de passe Root défini à l'étape précédente)
+  
 
   
 
   Puis, exécuter les requêtes SQL ci-dessous pour créer la base de données "db23_glpi" ainsi que l'utilisateur "glpi_adm" avec un mot de passe
 
-  IMAGE
+ ![GLPI](https://github.com/TSSR-ANGOU-P3-G1/blob/main/images/Create_BD.png)
 
   Liste des commandes pour un eventuel copier/coller :
+  
   CREATE DATABASE db23_glpi;
+  
   GRANT ALL PRIVILEGES ON db23_glpi.* TO glpi_adm@localhost IDENTIFIED BY "MotDePasseRobuste";
+  
   FLUSH PRIVILEGES;
+  
   EXIT
 
 
@@ -162,7 +167,7 @@ Choix des solutions pour répondre aux prérquis :
 
   
   
-   #### b) Installation de GLPI
+   #### c) Installation de GLPI
 
    Télécharger GLPI depuis le dépot GitHub et préparer l'installation :
 
