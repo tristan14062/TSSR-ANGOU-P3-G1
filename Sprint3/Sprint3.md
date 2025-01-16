@@ -30,7 +30,11 @@ _**Fin de Sprint 3**_
 2. Problèmes lors de la connexion SSH
 3. Github (IPv4) n'est pas accessible depuis le Proxmox (IPv6)
 4. Problème lors de la mise en place de la GPO sur la restriction du nombre de mot de passe avant verrouillage du compte
-5. GPO redirection de dossier
+
+
+5. Problème de DNS lors de la configuration de GLPI
+6. Problème lors de la connexion GLPI sur AD
+7. GPO redirection de dossier
 
 ## Solutions trouvées : Solutions et alternative trouvées
 
@@ -38,7 +42,10 @@ _**Fin de Sprint 3**_
 2. Gestion des ports dans le FireWall, root ne peut pas se connecter en SSH (création d'un utilisateur)
 3. Transfert de documents via Google Drive
 4. Couche 8 faire 4 tentatives de connexion si configuré sur 3 tentatives
-5. Pas encore de solution
+
+5. 
+6. Ajout de la forwardlookupzone
+7. Pas encore de solution
 
 ## Améliorations possibles : suggestions d'améliorations futures
 
