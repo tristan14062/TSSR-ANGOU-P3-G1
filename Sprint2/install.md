@@ -13,7 +13,7 @@ Sélectionner **Installation basée sur un rôle ou une fonctionnalité**.
 
 ![]()
 
-Choisir la bonne machine serveur, ici **SRV-DHCP-DNS**.
+Choisir la bonne machine serveur, ici **SRV-WIN-DC-01**.
 
 ![]()
 
