@@ -3,7 +3,75 @@
 _______
 # AD-DS / Rôles
 
-- Installation
+## Installation du rôle AD DS
+
+Dans le gestionnaire de serveur, cliquer sur **Ajouter des rôles et des fonctionnalités**.
+
+![]()
+
+Sélectionner **Installation basée sur un rôle ou une fonctionnalité**.
+
+![]()
+
+Choisir la bonne machine serveur, ici **SRV-DHCP-DNS**.
+
+![]()
+
+Cocher la case **Service AD DS**.
+
+![]()
+
+Valider en cliquant sur **Suivant**.
+
+![]()
+
+Cliquer sur **Ajouter des fonctionnaités**.
+
+![]()
+
+Puis sur **Installer**.
+
+![]()
+
+A la fin de l'installation, cliquer sur **Promouvoir ce serveur en controleur de domaine**.
+
+![]()
+
+Choisir **Ajouter une nouvelle forêt et indiquer un nom de domaine**.
+
+![]()
+
+Cocher **Serveur DNS** et renseigner le **mot de passe de restauration des services d'annuaire**.
+
+![]()
+
+Cliquer sur **Suivant**.
+
+![]()
+
+Laisser le **nom de domaine NetBIOS** par défaut (le personnaliser au besoin).
+
+![]()
+
+Encore une fois laisser les valeurs par défaut puis **Suivant**.
+
+![]()
+
+Un récapitulatif de l'installation apparaît, cliquer sur **Suivant**.
+
+![]()
+
+Cliquer sur **Installer**.
+
+![]()
+
+Cliquer sur **Fermer**.
+
+![]()
+
+L'**AD DS** apparaît bien dans le gestonnaire de serveur.
+
+![]()
 
 GUI
     ajout du rôle AD/DNS
