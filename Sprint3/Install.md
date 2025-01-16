@@ -1,6 +1,6 @@
 <div align="center"><H1> Install -  Sprint 3 </H1></div>
 
-## Rejoindre l'AD-DS avec le serveur Debian
+## 1) Rejoindre l'AD-DS avec le serveur Debian
 
 ### Étape 1 : Préparer le serveur Debian
 1. **Mettre à jour le système** :
@@ -47,7 +47,7 @@
    realm list
    ```
 
-## Les GPO
+## 2) Les GPO
 
 ### Les GPO de sécurité
 
@@ -74,3 +74,38 @@
 #### 4 : Déploiement de logiciels
 
 #### 5 : Gestion de l'alimentation
+
+
+
+## 3) Installation et configuration de GLPI
+
+
+
+
+
+
+
+Les Tutos et ressources internet sur GLPI
+
+https://forum.glpi-project.org/viewtopic.php?id=163985
+https://github.com/glpi-project/glpi/releases/
+https://github.com/glpi-project/glpi-agent/releases/tag/1.7
+https://services.glpi-network.com
+https://openclassrooms.com/fr/courses/1730516-gerez-votre-parc-informatique-avec-glpi/5994176-installez-le-plugin-et-l-agent-fusioninventory
+https://www.it-connect.fr/installation-pas-a-pas-de-glpi-10-sur-debian-12/
+https://www.it-connect.fr/glpi-en-https-comment-ajouter-un-certificat-ssl/
+https://www.it-connect.fr/tuto-installer-configurer-gpo-agent-glpi-windows/
+https://www.it-connect.fr/tuto-glpi-configurer-authentification-active-directory/
+https://www.it-connect.fr/tuto-glpi-configurer-authentification-active-directory/
+https://colinfo.fr/configuration-et-installation-de-lagent-glpi-sous-windows-et-linux/
+https://faq.teclib.com/02_FAQ/Agent/#what-are-the-functionalities-of-the-toolbox
+https://forum.glpi-project.org/viewtopic.php?id=290271
+debian règle dans mon firewall bloque l'accès au serveur apache
+https://tutos-info.fr/wp-content/uploads/2023/02/TUTORIEL-CONFIGURER-LDAP-SUR-GLPI-10.pdf
+https://neptunet.fr/glpi-ad/
+https://forum.glpi-project.org/viewtopic.php?id=249247
+https://openclassrooms.com/fr/courses/1730486-gerez-vos-incidents-avec-le-referentiel-itil-sur-glpi/6544666-creez-et-qualifiez-un-ticket-d-incident
+
+
+
+   
