@@ -37,6 +37,8 @@ A la fin de l'installation, cliquer sur **Promouvoir ce serveur en controleur de
 
 ![VirtualBoxVM_xncxV92ev3.png](https://github.com/WildCodeSchool/TSSR-ANGOU-P3-G1/blob/main/SCREENS-PAR-SPRINT/SCREENS_SPRINT2/Projet%203%20-%20Install%20ADDS%20-%20NEW%20FOREST/VirtualBoxVM_xncxV92ev3.png)
 
+## Création de la nouvelle forêt
+
 Choisir **Ajouter une nouvelle forêt et indiquer un nom de domaine**.
 
 ![VirtualBoxVM_j4kPV7Uqap.png](https://github.com/WildCodeSchool/TSSR-ANGOU-P3-G1/blob/main/SCREENS-PAR-SPRINT/SCREENS_SPRINT2/Projet%203%20-%20Install%20ADDS%20-%20NEW%20FOREST/VirtualBoxVM_j4kPV7Uqap.png)
@@ -73,8 +75,31 @@ L'**AD DS** apparaît bien dans le gestonnaire de serveur.
 
 ![VirtualBoxVM_1XNd6eAw0k.png](https://github.com/WildCodeSchool/TSSR-ANGOU-P3-G1/blob/main/SCREENS-PAR-SPRINT/SCREENS_SPRINT2/Projet%203%20-%20Install%20ADDS%20-%20NEW%20FOREST/VirtualBoxVM_1XNd6eAw0k.png)
 
-    OU (1 exemple)
+## Exemple de création d'Unité d'organisation
+
+Dans l'onglet **AD DS**, clic droit sur le serveur, ici **SRV-WIN-DC-01** et cliquer sur **Utilisateurs et ordinateurs Active Directory**.
+
+![VirtualBoxVM_UqWmdCdGOq.png](https://github.com/WildCodeSchool/TSSR-ANGOU-P3-G1/blob/main/SCREENS-PAR-SPRINT/SCREENS_SPRINT2/Projet%203%20-%20Exemple%20OU%20-%20Exemple%20Groupe/VirtualBoxVM_UqWmdCdGOq.png)
+
+Clic droit sur **BillU.lan**, sélectionner **Nouveau**, puis **Unité d'organisation**.
+
+![VirtualBoxVM_2dAOYFmedF.png](https://github.com/WildCodeSchool/TSSR-ANGOU-P3-G1/blob/main/SCREENS-PAR-SPRINT/SCREENS_SPRINT2/Projet%203%20-%20Exemple%20OU%20-%20Exemple%20Groupe/VirtualBoxVM_2dAOYFmedF.png)
+
+Renseigner le **Nom de cette organisation**, puis appuyer sur **Ok**.
+
+![VirtualBoxVM_ikqLZUtLt4.png](https://github.com/WildCodeSchool/TSSR-ANGOU-P3-G1/blob/main/SCREENS-PAR-SPRINT/SCREENS_SPRINT2/Projet%203%20-%20Exemple%20OU%20-%20Exemple%20Groupe/VirtualBoxVM_ikqLZUtLt4.png)
+
     Groupe (1 exemple)
+
+## Exemple de création de groupe
+
+Clic droit sur **BillU.lan**, puis sur **Nouveau** et enfin sur **Groupe**.
+
+![VirtualBoxVM_on9EFBwIhl.png](https://github.com/WildCodeSchool/TSSR-ANGOU-P3-G1/blob/main/SCREENS-PAR-SPRINT/SCREENS_SPRINT2/Projet%203%20-%20Exemple%20OU%20-%20Exemple%20Groupe/VirtualBoxVM_on9EFBwIhl.png)
+
+Renseigner le **nom du groupe** et appuyer sur **Ok**.
+
+![VirtualBoxVM_rylPv88QDv.png](https://github.com/WildCodeSchool/TSSR-ANGOU-P3-G1/blob/main/SCREENS-PAR-SPRINT/SCREENS_SPRINT2/Projet%203%20-%20Exemple%20OU%20-%20Exemple%20Groupe/VirtualBoxVM_rylPv88QDv.png)
 
 ## Redondance AD/DS avec un serveur Core
 
