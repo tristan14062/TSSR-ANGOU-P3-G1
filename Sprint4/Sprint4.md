@@ -16,13 +16,13 @@ _Sprint de deux semaines_
 
 ## Objectifs du Sprint
 
-_**Début de Sprint 3**_  
+_**Début de Sprint 4**_  
 <img src="" width="720" height="720">  
 
-_**Milieu de Sprint 3**_  
+_**Milieu de Sprint 4**_  
 <img src="" width="720" height="720">  
 
-_**Fin de Sprint 3**_  
+_**Fin de Sprint 4**_  
 <img src="" width="720" height="720">  
 
 ## Difficultés rencontrées : problèmes techniques rencontrés
