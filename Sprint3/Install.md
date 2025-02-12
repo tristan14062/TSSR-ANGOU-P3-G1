@@ -69,7 +69,7 @@
 
 #### 2 : Mappage de lecteur
 
-#### 3 : Redirection de dossier
+#### 3 : Configuration des paramètres de langues
 
 #### 4 : Déploiement de logiciels
 
