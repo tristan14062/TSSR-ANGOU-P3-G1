@@ -68,6 +68,16 @@ Laissons pfsense gérer automatiquement le NAT
 
 ### D) Mise en place de règles de pare-feu WAN, LAN, DMZ
 
+Dans l'optique d'utiliser la stratégie "Deny All", il faut désactiver les régles par défaut (dans l'image ci-dessous, les 2 règles du bas en "Default Allow LAN to any rule")
+La première règle ne peux pas être modifier ou désactiver afin de toujours garder l'accès à l'interface Web de pfsense
+
+
+![pfsense](https://github.com/WildCodeSchool/TSSR-ANGOU-P3-G1/blob/main/Sprint4/images/default_rules1.png)
+![pfsense](https://github.com/WildCodeSchool/TSSR-ANGOU-P3-G1/blob/main/Sprint4/images/default_rules2.png)
+
+
+
+
 ### E) Utiliser les principes de gestion des règles suivantes
 
 #### a) Deny all ou Allow all
