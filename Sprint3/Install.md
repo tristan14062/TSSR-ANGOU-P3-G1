@@ -108,13 +108,13 @@ Après avoir sélectionné la GPO, clic droit **Modifier**.
 2. **CMD**
 
 Après avoir sélectionné la GPO, clic droit **Modifier**. Depuis l'**Editeur de gestion des stratégies de groupe**, sous le menu **Configuration utilisateur**, dérouler jusqu'au **Système** sous **Modèles d'administration** :  
-![1_DEROULER_SYSTEME]()
+![1_DEROULER_SYSTEME](https://github.com/WildCodeSchool/TSSR-ANGOU-P3-G1/blob/main/SCREENS-PAR-SPRINT/SCREENS-SPRINT3/GPO_INSTALL/CMD/1_DEROULER_SYSTEME.png)
 
 Clic gauche sur **Système** et dans le menu de droite, choisir **Désactiver l'accès à l'invite de commandes** en double cliquant :  
-![2_DESACTIVER_INVITECMD]()
+![2_DESACTIVER_INVITECMD](https://github.com/WildCodeSchool/TSSR-ANGOU-P3-G1/blob/main/SCREENS-PAR-SPRINT/SCREENS-SPRINT3/GPO_INSTALL/CMD/2_DESACTIVER_INVITECMD.png)
 
 Dans le menu suivant, cocher **Activé** :  
-![3_COCHER_ACTIVE]()
+![3_COCHER_ACTIVE](https://github.com/WildCodeSchool/TSSR-ANGOU-P3-G1/blob/main/SCREENS-PAR-SPRINT/SCREENS-SPRINT3/GPO_INSTALL/CMD/3_COCHER_ACTIVE.png)
 
 
 
