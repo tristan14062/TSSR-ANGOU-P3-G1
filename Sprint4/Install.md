@@ -27,9 +27,36 @@ L'utilisation des adresses suivantes sont imposées :
 ![pfsense](https://github.com/WildCodeSchool/TSSR-ANGOU-P3-G1/blob/main/Sprint4/images/adresses_IP.png)
 
 
-### B) Mise en place de règles de pare-feu WAN, LAN, DMZ
+Configuration de la partie LAN
 
-### C) Utiliser les principes de gestion des règles suivantes
+![pfsense](https://github.com/WildCodeSchool/TSSR-ANGOU-P3-G1/blob/main/Sprint4/images/interface_lan1.png)
+
+![pfsense](https://github.com/WildCodeSchool/TSSR-ANGOU-P3-G1/blob/main/Sprint4/images/interface_lan2.png)
+
+
+Configuration de la partie WAN
+
+![pfsense](https://github.com/WildCodeSchool/TSSR-ANGOU-P3-G1/blob/main/Sprint4/images/interface_wan1.png)
+
+![pfsense](https://github.com/WildCodeSchool/TSSR-ANGOU-P3-G1/blob/main/Sprint4/images/interface_wan2.png)
+
+
+Configuration de la partie DMZ
+
+![pfsense](https://github.com/WildCodeSchool/TSSR-ANGOU-P3-G1/blob/main/Sprint4/images/interface_dmz1.png)
+
+![pfsense](https://github.com/WildCodeSchool/TSSR-ANGOU-P3-G1/blob/main/Sprint4/images/interface_dmz2.png)
+
+
+
+### B) Mise en place des routes 
+
+Copie d'écran du menu Routing / Static Routes
+
+
+### C) Mise en place de règles de pare-feu WAN, LAN, DMZ
+
+### D) Utiliser les principes de gestion des règles suivantes
 
 #### a) Deny all ou Allow all
 
