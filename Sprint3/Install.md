@@ -51,18 +51,39 @@
 
 ### Les GPO de sécurité
 
-#### 0 : Créer une GPO
+#### 0 : Créer une GPO / Lier une GPO à une OU / Configurer la ou les cibles d'une GPO
 
 Les étapes qui vont suivre s'appliquent à la création de **TOUTES** les GPO et ne seront donc pas présentes dans les guides suivants. 
+
+1. **Créer une GPO**
 
 Depuis la **Gestion de stratégie de groupe** (accessible depuis le menu déroulant **Outils**), dérouler l'arborescence et une fois arrivé sur votre domaine (ici _local.lan_), clic droit sur **Objets de stratégie de groupe** puis **Nouveau** :
 ![1_NOUVELLE_GPO.png](https://github.com/WildCodeSchool/TSSR-ANGOU-P3-G1/blob/main/SCREENS-PAR-SPRINT/SCREENS-SPRINT3/GPO_INSTALL/1_NOUVELLE_GPO.png)
 
-Nommer la GPO selon une convention de nommage ou de sorte à pouvoir identifier la ou les cibles, puis cliquer sur **Ok** :
+Nommer la GPO selon une convention de nommage ou de sorte à pouvoir identifier la ou les cibles, puis cliquer sur **OK** :
 ![2_NOMMER_GPO.png](https://github.com/WildCodeSchool/TSSR-ANGOU-P3-G1/blob/main/SCREENS-PAR-SPRINT/SCREENS-SPRINT3/GPO_INSTALL/2_NOMMER_GPO.png)
 
 Clic droit sur la nouvelle GPO et sélectionner **Modifier** :
 ![3_CLIC_DROIT_MODIFIER.png](https://github.com/WildCodeSchool/TSSR-ANGOU-P3-G1/blob/main/SCREENS-PAR-SPRINT/SCREENS-SPRINT3/GPO_INSTALL/3_CLIC_DROIT_MODIFIER.png)
+
+2. **Lier une GPO à une OU**
+
+Clic droit sur l'OU cible et sélectionner **Lier un objet de stratégie de gorupe existant...** :
+![4_LIER_GPO]()
+
+3. **Renseigner l'état de la GPO**
+
+Clic gauche sur la GPO, dans le menu de droite, définir l'**Etat GPO** au besoin :
+![5_ETAT_GPO]()
+
+4. **Indiquer les groupes et/ou les utilisateurs ciblés par la GPO**
+
+Clic gauche sur la GPO, dans le menu de droite, cliquer sur **Ajouter...** dans la partie **Filtrage de sécurité** :
+![6_GROUPE_UTILISATEUR_CIBLE]()
+
+Entrer le nom de l'utilisateur ou du groupe souhaité, puis cliquer sur **Vérifier les noms**, puis sur **OK**
+![7_CHECK_NAMES]()
+
 
 #### 1 : Blocage complet du panneau de config
 
