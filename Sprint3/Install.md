@@ -87,7 +87,16 @@ Entrer le nom de l'utilisateur ou du groupe souhaité, puis cliquer sur **Vérif
 
 #### 1 : Blocage complet du panneau de config
 
+Dans l'**Editeur de gestion des stratégies de groupe**, sous le menu **Configuration utilisateur**, dérouler jusqu'au **Panneau de configuration** sous **Modèles d'administration** :
+![1_DEROULER_PANNEAUCONF]()
 
+Clic gauche sur **Panneau de configuration** et dans le menu de droite, choisir **Interdire l'accès au Panneau de configuration et à l'application...** en double cliquant :
+![2_INTERDIRE_ACCES]()
+
+Dans le menu suivant, cocher **Activé** :
+![]()
+
+Après un ```bash gpupdate /force``` sur le ou les clients, la GPO devrait désormais bloquer l'accès au panneau de configuration des utilisateurs cibles.
 
 
 #### 2 : Sécurité PowerShell + CMD
