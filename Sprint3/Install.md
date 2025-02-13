@@ -103,19 +103,19 @@ Après un ```gpupdate /force``` sur le ou les clients, la GPO devrait désormais
 
 1. **PowerShell**
 
-Après avoir sélectionné la GPO, clic droit **Modifier**. Depuis l'**Editeur de gestion des stratégies de groupe**, sous le menu **Configuration utilisateur**, dérouler jusqu'aux **Stratégies de restriction logicielle** sous **Paramètres de sécurité** :
+Après avoir sélectionné la GPO, clic droit **Modifier**. Depuis l'**Editeur de gestion des stratégies de groupe**, sous le menu **Configuration utilisateur**, dérouler jusqu'aux **Stratégies de restriction logicielle** sous **Paramètres de sécurité** :  
 ![1_DEROULER_STRATEGIES](https://github.com/WildCodeSchool/TSSR-ANGOU-P3-G1/blob/main/SCREENS-PAR-SPRINT/SCREENS-SPRINT3/GPO_INSTALL/Powershell/1_DEROULER_STRATEGIES.png)
 
-Effectuer un clic droit sur **Stratégies de restriction logicielle** et cliquer sur **Nouvelles stratégies de restriction logicielle** :
+Effectuer un clic droit sur **Stratégies de restriction logicielle** et cliquer sur **Nouvelles stratégies de restriction logicielle** :  
 ![2_CLIC_NOUVELLES](https://github.com/WildCodeSchool/TSSR-ANGOU-P3-G1/blob/main/SCREENS-PAR-SPRINT/SCREENS-SPRINT3/GPO_INSTALL/Powershell/2_CLIC_NOUVELLES.png)
 
-Pour créer de nouvelles règles, effectuer un clic druit sur **Règles suplémentaires** puis cliquer sur **Nouvelle règle de chemin d'accès** :
+Pour créer de nouvelles règles, effectuer un clic druit sur **Règles suplémentaires** puis cliquer sur **Nouvelle règle de chemin d'accès** :  
 ![3_NOUVELLE_REGLE](https://github.com/WildCodeSchool/TSSR-ANGOU-P3-G1/blob/main/SCREENS-PAR-SPRINT/SCREENS-SPRINT3/GPO_INSTALL/Powershell/3_NOUVELLE_REGLE.png)
 
-Renseigner le **Chemin d'accès** :
+Renseigner le **Chemin d'accès** :  
 ![4_CHEMIN_ACCES](https://github.com/WildCodeSchool/TSSR-ANGOU-P3-G1/blob/main/SCREENS-PAR-SPRINT/SCREENS-SPRINT3/GPO_INSTALL/Powershell/4_CHEMIN_ACCES.png)
 
-Powershell ne se limite pas qu'à une version, plusieurs sont généralement présentes sur les systèmes Windows, voici la liste des chemins probables :
+Powershell ne se limite pas qu'à une version, plusieurs sont généralement présentes sur les systèmes Windows, voici la liste des chemins probables :  
 ![5_CHEMINS](https://github.com/WildCodeSchool/TSSR-ANGOU-P3-G1/blob/main/SCREENS-PAR-SPRINT/SCREENS-SPRINT3/GPO_INSTALL/Powershell/5_CHEMINS.png)
 
 2. **CMD**
