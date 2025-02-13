@@ -56,13 +56,13 @@
 Les étapes qui vont suivre s'appliquent à la création de **TOUTES** les GPO et ne seront donc pas présentes dans les guides suivants. 
 
 Depuis la **Gestion de stratégie de groupe** (accessible depuis le menu déroulant **Outils**), dérouler l'arborescence et une fois arrivé sur votre domaine (ici _local.lan_), clic droit sur **Objets de stratégie de groupe** puis **Nouveau** :
-![]()
+![1_NOUVELLE_GPO.png](https://github.com/WildCodeSchool/TSSR-ANGOU-P3-G1/blob/main/SCREENS-PAR-SPRINT/SCREENS-SPRINT3/GPO_INSTALL/1_NOUVELLE_GPO.png)
 
 Nommer la GPO selon une convention de nommage ou de sorte à pouvoir identifier la ou les cibles, puis cliquer sur **Ok** :
-![]()
+![2_NOMMER_GPO.png](https://github.com/WildCodeSchool/TSSR-ANGOU-P3-G1/blob/main/SCREENS-PAR-SPRINT/SCREENS-SPRINT3/GPO_INSTALL/2_NOMMER_GPO.png)
 
 Clic droit sur la nouvelle GPO et sélectionner **Modifier** :
-![]()
+![3_CLIC_DROIT_MODIFIER.png](https://github.com/WildCodeSchool/TSSR-ANGOU-P3-G1/blob/main/SCREENS-PAR-SPRINT/SCREENS-SPRINT3/GPO_INSTALL/3_CLIC_DROIT_MODIFIER.png)
 
 #### 1 : Blocage complet du panneau de config
 
