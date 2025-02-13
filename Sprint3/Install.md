@@ -87,7 +87,7 @@ Entrer le nom de l'utilisateur ou du groupe souhaité, puis cliquer sur **Vérif
 
 #### 1 : Blocage complet du panneau de config
 
-Dans l'**Editeur de gestion des stratégies de groupe**, sous le menu **Configuration utilisateur**, dérouler jusqu'au **Panneau de configuration** sous **Modèles d'administration** :  
+Après avoir sélectionné la GPO, clic droit **Modifier**. Dans l'**Editeur de gestion des stratégies de groupe**, sous le menu **Configuration utilisateur**, dérouler jusqu'au **Panneau de configuration** sous **Modèles d'administration** :  
 ![1_DEROULER_PANNEAUCONF](https://github.com/WildCodeSchool/TSSR-ANGOU-P3-G1/blob/main/SCREENS-PAR-SPRINT/SCREENS-SPRINT3/GPO_INSTALL/Panneau%20de%20conf/1_DEROULER_PANNEAUCONF.png)
 
 Clic gauche sur **Panneau de configuration** et dans le menu de droite, choisir **Interdire l'accès au Panneau de configuration et à l'application...** en double cliquant :  
@@ -101,27 +101,60 @@ Après un ```gpupdate /force``` sur le ou les clients, la GPO devrait désormais
 
 #### 2 : Sécurité PowerShell + CMD
 
+1. **PowerShell**
+
+Après avoir sélectionné la GPO, clic droit **Modifier**.
+
+2. **CMD**
+
+Après avoir sélectionné la GPO, clic droit **Modifier**. Depuis l'**Editeur de gestion des stratégies de groupe**, sous le menu **Configuration utilisateur**, dérouler jusqu'au **Système** sous **Modèles d'administration** :  
+![1_DEROULER_SYSTEME]()
+
+Clic gauche sur **Système** et dans le menu de droite, choisir **Désactiver l'accès à l'invite de commandes** en double cliquant :  
+![2_DESACTIVER_INVITECMD]()
+
+Dans le menu suivant, cocher **Activé** :  
+![3_COCHER_ACTIVE]()
+
+
+
 #### 3 : Restriction des périphériques amovibles
+
+Après avoir sélectionné la GPO, clic droit **Modifier**.
 
 #### 4 : Ecran de veille avec MDP en sortie
 
+Après avoir sélectionné la GPO, clic droit **Modifier**.
+
 #### 5 : Verrouillage de compte (Après un nombre d'erreurs de mot de passe définie)
 
+Après avoir sélectionné la GPO, clic droit **Modifier**.
+
 #### 6 : Blocage de l'accès du gestionnaire de tâche
+
+Après avoir sélectionné la GPO, clic droit **Modifier**.
 
 ### Les GPO Standards
 
 #### 1 : Fond d'écran
 
+Après avoir sélectionné la GPO, clic droit **Modifier**.
+
 #### 2 : Mappage de lecteur
+
+Après avoir sélectionné la GPO, clic droit **Modifier**.
 
 #### 3 : Configuration des paramètres de langues
 
+Après avoir sélectionné la GPO, clic droit **Modifier**.
+
 #### 4 : Déploiement de logiciels
+
+Après avoir sélectionné la GPO, clic droit **Modifier**.
 
 #### 5 : Gestion de l'alimentation
 
-
+Après avoir sélectionné la GPO, clic droit **Modifier**.
 
 ## 3) GLPI
 ![GLPI](https://github.com/WildCodeSchool/TSSR-ANGOU-P3-G1/blob/main/Sprint3/images/logo_glpi.png)
