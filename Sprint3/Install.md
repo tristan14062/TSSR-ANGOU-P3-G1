@@ -282,11 +282,14 @@ sudo chown www-data /var/www/glpi/ -R
    ```
 
 
+Une fois l'installation terminée, en tapant l'adresse IP de la machine sur laquelle GLPI à été installé (ou l'adresse du site web glpi.support.billu.tech préalablement déclaré dans le DNS), nous arrivons sur la page suivante.
+Seule la possibilité de se connecter à "Internal GLPI database" est possible pour le moment.
 
 
+![GLPI](https://github.com/WildCodeSchool/TSSR-ANGOU-P3-G1/blob/main/Sprint3/images/image_login_GLPI.png)
 
 
-Sur la VM Debian il est nécéssaire d'établir une règle dans le firewall pour éviter de bloquer l'accès au serveur web sous apache pour accéder a l'interface GLPI
+ATTENTION Sur la VM Debian pour GLPI il est nécéssaire d'établir une règle dans le firewall pour éviter de bloquer l'accès au serveur web sous apache pour accéder a l'interface GLPI
 
 ufw port 80 allow (pour accès en http) et ufw port 443 allow (pour accès en https)
 
@@ -338,9 +341,20 @@ Pour obtenir cette liste d'utilisateurs directement importé depuis notre Active
 ![GLPI](https://github.com/WildCodeSchool/TSSR-ANGOU-P3-G1/blob/main/Sprint3/images/annuaire_ldap10.png)
 
 
+Une fois cette configuration terminée, en tapant l'adresse IP de la machine sur laquelle GLPI à été installé (ou l'adresse du site web glpi.support.billu.tech préalablement déclaré dans le DNS), nous arrivons sur la page suivante.
+Maintenant nous avons le choix et la possibilité de se connecter soit à "Internal GLPI database", soit comme utilisateur de l'AD afin de pouvoir créer un ticket pour le support.
 
 
-### D) Les Tutos et ressources internet sur GLPI
+![GLPI](https://github.com/WildCodeSchool/TSSR-ANGOU-P3-G1/blob/main/Sprint3/images/image_login_GLPI.png)
+
+### D) Ticketing
+
+Copie d'écran d'un ticket créer pour un test
+
+![GLPI](https://github.com/WildCodeSchool/TSSR-ANGOU-P3-G1/blob/main/Sprint3/images/ticketing.png)
+
+
+### E) Les Tutos et ressources internet sur GLPI
 
 https://forum.glpi-project.org/viewtopic.php?id=163985
 
