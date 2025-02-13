@@ -69,20 +69,20 @@ Clic droit sur la nouvelle GPO et sélectionner **Modifier** :
 2. **Lier une GPO à une OU**
 
 Clic droit sur l'OU cible et sélectionner **Lier un objet de stratégie de gorupe existant...** :
-![4_LIER_GPO]()
+![4_LIER_GPO](https://github.com/WildCodeSchool/TSSR-ANGOU-P3-G1/blob/main/SCREENS-PAR-SPRINT/SCREENS-SPRINT3/GPO_INSTALL/4_LIER_GPO.png)
 
 3. **Renseigner l'état de la GPO**
 
 Clic gauche sur la GPO, dans le menu de droite, définir l'**Etat GPO** au besoin :
-![5_ETAT_GPO]()
+![5_ETAT_GPO](https://github.com/WildCodeSchool/TSSR-ANGOU-P3-G1/blob/main/SCREENS-PAR-SPRINT/SCREENS-SPRINT3/GPO_INSTALL/5_ETAT_GPO.png)
 
 4. **Indiquer les groupes et/ou les utilisateurs ciblés par la GPO**
 
 Clic gauche sur la GPO, dans le menu de droite, cliquer sur **Ajouter...** dans la partie **Filtrage de sécurité** :
-![6_GROUPE_UTILISATEUR_CIBLE]()
+![6_GROUPE_UTILISATEUR_CIBLE](https://github.com/WildCodeSchool/TSSR-ANGOU-P3-G1/blob/main/SCREENS-PAR-SPRINT/SCREENS-SPRINT3/GPO_INSTALL/6_RENSEIGNER_GROUPE_UTILISATEUR_CIBLE.png)
 
 Entrer le nom de l'utilisateur ou du groupe souhaité, puis cliquer sur **Vérifier les noms**, puis sur **OK**
-![7_CHECK_NAMES]()
+![7_CHECK_NAMES](https://github.com/WildCodeSchool/TSSR-ANGOU-P3-G1/blob/main/SCREENS-PAR-SPRINT/SCREENS-SPRINT3/GPO_INSTALL/7_CHECK_NAMES.png)
 
 
 #### 1 : Blocage complet du panneau de config
