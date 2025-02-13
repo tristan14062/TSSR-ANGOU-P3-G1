@@ -103,7 +103,20 @@ Après un ```gpupdate /force``` sur le ou les clients, la GPO devrait désormais
 
 1. **PowerShell**
 
-Après avoir sélectionné la GPO, clic droit **Modifier**.
+Après avoir sélectionné la GPO, clic droit **Modifier**. Depuis l'**Editeur de gestion des stratégies de groupe**, sous le menu **Configuration utilisateur**, dérouler jusqu'aux **Stratégies de restriction logicielle** sous **Paramètres de sécurité** :
+![1_DEROULER_STRATEGIES]()
+
+Effectuer un clic droit sur **Stratégies de restriction logicielle** et cliquer sur **Nouvelles stratégies de restriction logicielle** :
+![2_CLIC_NOUVELLES]()
+
+Pour créer de nouvelles règles, effectuer un clic druit sur **Règles suplémentaires** puis cliquer sur **Nouvelle règle de chemin d'accès** :
+![3_NOUVELLE_REGLE]()
+
+Renseigner le **Chemin d'accès** :
+![4_CHEMIN_ACCES]()
+
+Powershell ne se limite pas qu'à une version, plusieurs sont généralement présentes sur les systèmes Windows, voici la liste des chemins probables :
+![5_CHEMINS]()
 
 2. **CMD**
 
