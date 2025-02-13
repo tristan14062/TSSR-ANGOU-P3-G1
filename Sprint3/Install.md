@@ -115,7 +115,7 @@ Pour créer de nouvelles règles, effectuer un clic druit sur **Règles supléme
 Renseigner le **Chemin d'accès** :  
 ![4_CHEMIN_ACCES](https://github.com/WildCodeSchool/TSSR-ANGOU-P3-G1/blob/main/SCREENS-PAR-SPRINT/SCREENS-SPRINT3/GPO_INSTALL/Powershell/4_CHEMIN_ACCES.png)
 
-Powershell ne se limite pas qu'à une version, plusieurs sont généralement présentes sur les systèmes Windows, voici la liste des chemins probables :  
+Powershell ne se limite pas qu'à une version, plusieurs sont généralement présentes sur les systèmes Windows, voici la liste des chemins probables (_Image issue du tuto [IT-Connect](https://www.it-connect.fr/comment-bloquer-powershell-pour-les-utilisateurs/)_):  
 ![5_CHEMINS](https://github.com/WildCodeSchool/TSSR-ANGOU-P3-G1/blob/main/SCREENS-PAR-SPRINT/SCREENS-SPRINT3/GPO_INSTALL/Powershell/5_CHEMINS.png)
 
 2. **CMD**
