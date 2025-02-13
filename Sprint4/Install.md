@@ -180,4 +180,4 @@ Sur votre client comme sur le serveur, ils devraient avoir accès à internet.
 
 ### Lien avec le schéma
 
-![](https://i.imgur.com/PmvTJ6y.png)
+![](https://i.imgur.com/Ri07fab.png)
