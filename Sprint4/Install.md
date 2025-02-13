@@ -2,7 +2,7 @@
 
 ## 1) SECURITE - Gestion d'un firewall pfSense
 
-![pfsense](https://github.com/WildCodeSchool/TSSR-ANGOU-P3-G1/blob/main/images/logo_pfsense.png)
+![pfsense](https://github.com/WildCodeSchool/TSSR-ANGOU-P3-G1/Sprint4/blob/main/images/logo_pfsense.png)
 
 ### A) Mise en place de règles de pare-feu WAN, LAN, DMZ
 
