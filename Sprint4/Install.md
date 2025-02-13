@@ -1,10 +1,12 @@
 <div align="center"><H1> Install -  Sprint 4 </H1></div>
 
-## 1) SECURITE - Gestion d'un fireall pfSense
+## 1) SECURITE - Gestion d'un firewall pfSense
+
+![pfsense](https://github.com/WildCodeSchool/TSSR-ANGOU-P3-G1/blob/main/images/logo_pfsense.png)
 
 ### A) Mise en place de règles de pare-feu WAN, LAN, DMZ
 
-### B) Utiliser les principes de gestion de règles suivant
+### B) Utiliser les principes de gestion des règles suivantes
 
 #### a) Deny all ou Allow all
 
