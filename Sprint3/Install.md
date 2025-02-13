@@ -51,7 +51,23 @@
 
 ### Les GPO de sécurité
 
+#### 0 : Créer une GPO
+
+Les étapes qui vont suivre s'appliquent à la création de **TOUTES** les GPO et ne seront donc pas présentes dans les guides suivants. 
+
+Depuis la **Gestion de stratégie de groupe** (accessible depuis le menu déroulant **Outils**), dérouler l'arborescence et une fois arrivé sur votre domaine (ici _local.lan_), clic droit sur **Objets de stratégie de groupe** puis **Nouveau** :
+![]()
+
+Nommer la GPO selon une convention de nommage ou de sorte à pouvoir identifier la ou les cibles, puis cliquer sur **Ok** :
+![]()
+
+Clic droit sur la nouvelle GPO et sélectionner **Modifier** :
+![]()
+
 #### 1 : Blocage complet du panneau de config
+
+
+
 
 #### 2 : Sécurité PowerShell + CMD
 
