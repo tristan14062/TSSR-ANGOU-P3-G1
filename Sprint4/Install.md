@@ -176,11 +176,7 @@ Sur votre client comme sur le serveur, ils devraient avoir accès à internet.
   
   
 <HR>
-  
-Voici le schéma représentant la configuration effectuée ci-dessus : 
-  
-![](https://i.imgur.com/5NG1oKe.png)
 
-2. **Utilisation de sous-réseau de carte bridge**
+### Lien avec le schéma
 
-3. **Lien avec le schéma réseau initial**
+![]((https://i.imgur.com/PmvTJ6y.png))
