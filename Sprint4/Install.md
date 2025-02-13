@@ -11,10 +11,12 @@
      Tout d'abord, il faut télécharger l'ISO sur le site de netgate.com
      Ensuite, televerser l'image sur l'infra PROXMOX
      Lancer l'installation
-     Seul le l'adresse IP de la machine, lelogin et le mot de passe sont important à bien configurer pendant l'installation, afin d'avoir accès à l'interface web de pfsense depuis un client (Windows ou Linux) sur le réseau. Par la suite, tout peut être modifié dans l'interface.
+     Seul le l'adresse IP de la machine, le login et le mot de passe sont important à bien configurer pendant l'installation, afin d'avoir accès à l'interface web de pfsense depuis un client (Windows ou Linux) sur le réseau. Par la suite, tout peut être modifié dans l'interface.
+
+     Une fois l'installation terminée, il faut se connecter depuis un client avec l'adresse https://172.18.255.254
 
     
-
+![pfsense](https://github.com/WildCodeSchool/TSSR-ANGOU-P3-G1/blob/main/Sprint4/images/login_pfsense.png)
     
 
     
