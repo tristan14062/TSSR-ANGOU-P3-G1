@@ -49,7 +49,7 @@ Configuration de la partie DMZ
 
 
 
-une fois les réglages en place, il est possible d'avoir ces information dans un Widget sur la page d'accueil 
+une fois les réglages en place, il est possible d'avoir ces informations dans un Widget qui se nomme "Interfaces" sur la page d'accueil 
 
 ![pfsense](https://github.com/WildCodeSchool/TSSR-ANGOU-P3-G1/blob/main/Sprint4/images/widget_IP.png)
 
