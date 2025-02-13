@@ -349,7 +349,7 @@ Maintenant nous avons le choix et la possibilité de se connecter soit à "Inter
 
 ### D) Ticketing
 
-Copie d'écran d'un ticket créer pour un test
+Copie d'écran d'un ticket créer par un utilisateur de l'AD dont l'acronyme est FS, pour un test.
 
 ![GLPI](https://github.com/WildCodeSchool/TSSR-ANGOU-P3-G1/blob/main/Sprint3/images/ticketing.png)
 
