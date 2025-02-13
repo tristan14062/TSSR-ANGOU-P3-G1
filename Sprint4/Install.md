@@ -49,14 +49,26 @@ Configuration de la partie DMZ
 
 
 
-### B) Mise en place des routes 
+### B) Réglage de la partie NAT
 
-Copie d'écran du menu Routing / Static Routes
+Laissons pfsense gérer automatiquement le NAT
+
+![pfsense](https://github.com/WildCodeSchool/TSSR-ANGOU-P3-G1/blob/main/Sprint4/images/NAT.png)
 
 
-### C) Mise en place de règles de pare-feu WAN, LAN, DMZ
+### C) Mise en place des passerelles et des routes 
 
-### D) Utiliser les principes de gestion des règles suivantes
+![pfsense](https://github.com/WildCodeSchool/TSSR-ANGOU-P3-G1/blob/main/Sprint4/images/routing_static.png)
+
+![pfsense](https://github.com/WildCodeSchool/TSSR-ANGOU-P3-G1/blob/main/Sprint4/images/routing_gateways.png)
+
+
+
+
+
+### D) Mise en place de règles de pare-feu WAN, LAN, DMZ
+
+### E) Utiliser les principes de gestion des règles suivantes
 
 #### a) Deny all ou Allow all
 
