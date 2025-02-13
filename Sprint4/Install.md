@@ -2,11 +2,32 @@
 
 ## 1) SECURITE - Gestion d'un firewall pfSense
 
-![pfsense](https://github.com/WildCodeSchool/TSSR-ANGOU-P3-G1/Sprint4/blob/main/images/logo_pfsense.png)
+![pfsense](https://github.com/WildCodeSchool/TSSR-ANGOU-P3-G1/blob/main/Sprint4/images/logo_pfsense.png)
 
-### A) Mise en place de règles de pare-feu WAN, LAN, DMZ
+### A) Installation et paramètres réseaux
 
-### B) Utiliser les principes de gestion des règles suivantes
+  1. Installation
+
+     Tout d'abord, il faut télécharger l'ISO sur le site de netgate.com
+     Ensuite, televerser l'image sur l'infra PROXMOX
+     Lancer l'installation
+     Seul le l'adresse IP de la machine, lelogin et le mot de passe sont important à bien configurer pendant l'installation, afin d'avoir accès à l'interface web de pfsense depuis un client (Windows ou Linux) sur le réseau. Par la suite, tout peut être modifié dans l'interface.
+
+    
+
+    
+
+    
+  3. Configuration réseaux  
+
+L'utilisation des adresses suivantes sont imposées :
+
+![pfsense](https://github.com/WildCodeSchool/TSSR-ANGOU-P3-G1/blob/main/Sprint4/images/adresses_IP.png)
+
+
+### B) Mise en place de règles de pare-feu WAN, LAN, DMZ
+
+### C) Utiliser les principes de gestion des règles suivantes
 
 #### a) Deny all ou Allow all
 
