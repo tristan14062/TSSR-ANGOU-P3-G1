@@ -94,9 +94,9 @@ Clic gauche sur **Panneau de configuration** et dans le menu de droite, choisir 
 ![2_INTERDIRE_ACCES]()
 
 Dans le menu suivant, cocher **Activé** :
-![]()
+![3_COCHER_ACTIVE]()
 
-Après un ```bash gpupdate /force``` sur le ou les clients, la GPO devrait désormais bloquer l'accès au panneau de configuration des utilisateurs cibles.
+Après un ```gpupdate /force``` sur le ou les clients, la GPO devrait désormais bloquer l'accès au panneau de configuration des utilisateurs cibles.
 
 
 #### 2 : Sécurité PowerShell + CMD
