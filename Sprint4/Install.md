@@ -157,6 +157,7 @@ Sur le client, le ```ipconfig /release```devrait nous attribuer une addresse de 
 Toujours en mode ```configure ```, on lui indique la gateway par défaut (l'adresse du pfsense) :
   
  ```set protocols static route 0.0.0.0/0 next-hop 172.18.255.254```
+ 
  ```set protocols static route 10.0.0.0/24 next-hop 172.18.255.254```
   
 Il faut permettre la traduction NAT afin de faire passer le WAN et d'avoir accès à internet : 
