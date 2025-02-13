@@ -286,12 +286,30 @@ sudo chown www-data /var/www/glpi/ -R
 
 
 
+Sur la VM Debian il est nécéssaire d'établir une règle dans le firewall pour éviter de bloquer l'accès au serveur web sous apache pour accéder a l'interface GLPI
 
+ufw port 80 allow (pour accès en http) et ufw port 443 allow (pour accès en https)
 
 
 ### B) Déploiement de l'agent GLPI sur les clients (Windows et Linux)
 
+Il est possible de déployer un agent GLPI pour remonter des informations (caractéristiques de l'ordianteurs, logiciels installés) depuis les clients vers la base de données GLPI
+
+Source pour le téléchargement de l'agent : https://github.com/glpi-project/glpi-agent/releases/tag/1.7
+
+Une fois l'agent installé sur un PC client il est possible de forcer l'éxecution pour la mise à jour dans GLPI (ou bien il faut attendre la prochaine MAJ automatique)
+
+![GLPI](https://github.com/WildCodeSchool/TSSR-ANGOU-P3-G1/blob/main/Sprint3/images/agent_glpi.png)
+
+Voici le resultat dans GLPI
+
+![GLPI](https://github.com/WildCodeSchool/TSSR-ANGOU-P3-G1/blob/main/Sprint3/images/remonte_agent_glpi.png)
+
+
 ### C) Lien entre l'AD du domaine BillU.lan et GLPI
+
+
+
 
 
 
@@ -324,8 +342,6 @@ https://colinfo.fr/configuration-et-installation-de-lagent-glpi-sous-windows-et-
 https://faq.teclib.com/02_FAQ/Agent/#what-are-the-functionalities-of-the-toolbox
 
 https://forum.glpi-project.org/viewtopic.php?id=290271
-
-debian règle dans mon firewall bloque l'accès au serveur apache
 
 https://tutos-info.fr/wp-content/uploads/2023/02/TUTORIEL-CONFIGURER-LDAP-SUR-GLPI-10.pdf
 
