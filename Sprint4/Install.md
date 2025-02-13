@@ -45,8 +45,13 @@ Configuration de la partie DMZ
 
 ![pfsense](https://github.com/WildCodeSchool/TSSR-ANGOU-P3-G1/blob/main/Sprint4/images/interface_dmz1.png)
 
-![pfsense](https://github.com/WildCodeSchool/TSSR-ANGOU-P3-G1/blob/main/Sprint4/images/interface_dmz2.png)
 
+
+
+
+une fois les réglages en place, il est possible d'avoir ces information dans un Widget sur la page d'accueil 
+
+![pfsense](https://github.com/WildCodeSchool/TSSR-ANGOU-P3-G1/blob/main/Sprint4/images/widget_IP.png)
 
 
 ### B) Réglage de la partie NAT
