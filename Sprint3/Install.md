@@ -308,9 +308,34 @@ Voici le resultat dans GLPI
 
 ### C) Lien entre l'AD du domaine BillU.lan et GLPI
 
+Pour faire ceci nous allons utiliser l'annuaire LDAP
 
 
+![GLPI](https://github.com/WildCodeSchool/TSSR-ANGOU-P3-G1/blob/main/Sprint3/images/annuaire_ldap.png)
 
+![GLPI](https://github.com/WildCodeSchool/TSSR-ANGOU-P3-G1/blob/main/Sprint3/images/annuaire_ldap2.png)
+
+![GLPI](https://github.com/WildCodeSchool/TSSR-ANGOU-P3-G1/blob/main/Sprint3/images/annuaire_ldap3.png)
+
+Ne pas utiliser le compte administrateur du controleur de Domaine avec le role AD mais créer au préalable un utilisateur standard (ici sync_glpi) comme compte de service.
+
+![GLPI](https://github.com/WildCodeSchool/TSSR-ANGOU-P3-G1/blob/main/Sprint3/images/annuaire_ldap4.png)
+
+Un fois la connexion établie, il est possible de la tester 
+
+![GLPI](https://github.com/WildCodeSchool/TSSR-ANGOU-P3-G1/blob/main/Sprint3/images/annuaire_ldap5.png)
+
+![GLPI](https://github.com/WildCodeSchool/TSSR-ANGOU-P3-G1/blob/main/Sprint3/images/annuaire_ldap6.png)
+
+Importons maintenant les utilisateurs de l'AD dans GLPI
+
+![GLPI](https://github.com/WildCodeSchool/TSSR-ANGOU-P3-G1/blob/main/Sprint3/images/annuaire_ldap8.png)
+
+Pour obtenir cette liste d'utilisateurs directement importé depuis notre Active Directory, il faudra au préalable selectionner "Liaison annuaire LDAP" puis rentrer les infos visible sur les copies d'écrans suivantes
+
+![GLPI](https://github.com/WildCodeSchool/TSSR-ANGOU-P3-G1/blob/main/Sprint3/images/annuaire_ldap9.png)
+
+![GLPI](https://github.com/WildCodeSchool/TSSR-ANGOU-P3-G1/blob/main/Sprint3/images/annuaire_ldap10.png)
 
 
 
