@@ -291,9 +291,8 @@ sudo chown www-data /etc/glpi/
 ```
 Puis, nous allons déplacer le répertoire "config" de GLPI vers ce nouveau dossier :
 
-sudo mv /var/www/glpi/config /etc/glpi
 ```
-    Le répertoire /var/lib/glpi
+sudo mv /var/www/glpi/config /etc/glpi
 ```
 
 Répétons la même opération avec la création du répertoire "/var/lib/glpi" :
