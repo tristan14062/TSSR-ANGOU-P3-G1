@@ -281,9 +281,174 @@ Choix des solutions pour répondre aux prérquis :
 sudo chown www-data /var/www/glpi/ -R
    ```
 
+Ensuite, nous allons devoir créer plusieurs dossiers et sortir des données de la racine Web (/var/www/glpi) de manière à les stocker dans les nouveaux dossiers que nous allons créer. Ceci va permettre de faire une installation sécurisée de GLPI, qui suit les recommandations de l'éditeur.
+Commencons par créer le répertoire "/etc/glpi" qui va recevoir les fichiers de configuration de GLPI. Nous donnons des autorisations à www-data sur ce répertoire car il a besoin de pouvoir y accéder.
+
+```
+sudo mkdir /etc/glpi
+sudo chown www-data /etc/glpi/
+
+```
+Puis, nous allons déplacer le répertoire "config" de GLPI vers ce nouveau dossier :
+
+sudo mv /var/www/glpi/config /etc/glpi
+```
+    Le répertoire /var/lib/glpi
+```
+
+Répétons la même opération avec la création du répertoire "/var/lib/glpi" :
+```
+sudo mkdir /var/lib/glpi
+sudo chown www-data /var/lib/glpi/
+```
+
+Dans lequel nous déplaçons également le dossier "files" qui contient la majorité des fichiers de GLPI : CSS, plugins, etc.
+```
+sudo mv /var/www/glpi/files /var/lib/glpi
+```
+
+Terminons par la création du répertoire "/var/log/glpi" destiné à stocker les journaux de GLPI. Toujours sur le même principe :
+```
+sudo mkdir /var/log/glpi
+sudo chown www-data /var/log/glpi
+```
+
+Nous n'avons rien à déplacer dans ce répertoire.
+
+   Etape de Création des fichiers de configuration
+   -----------------------------------------------
+
+Nous devons configurer GLPI pour qu'il sache où aller chercher les données. Autrement dit, nous allons déclarer les nouveaux répertoires créés.
+
+Nous allons créer ce premier fichier :
+```
+sudo nano /var/www/glpi/inc/downstream.php
+```
+
+Afin d'ajouter le contenu ci-dessous qui indique le chemin vers le répertoire de configuration :
+```
+<?php
+define('GLPI_CONFIG_DIR', '/etc/glpi/');
+if (file_exists(GLPI_CONFIG_DIR . '/local_define.php')) {
+    require_once GLPI_CONFIG_DIR . '/local_define.php';
+}
+```
+Ensuite, nous allons créer ce second fichier :
+```
+sudo nano /etc/glpi/local_define.php
+```
+Afin d'ajouter le contenu ci-dessous permettant de déclarer deux variables permettant de préciser les chemins vers les répertoires "files" et "log" que l'on a préparé précédemment.
+```
+<?php
+define('GLPI_VAR_DIR', '/var/lib/glpi/files');
+define('GLPI_LOG_DIR', '/var/log/glpi');
+```
+Voilà, cette étape est terminée.
+
+Préparation de la configuration Apache2
+---------------------------------------
+
+Passons à la configuration du serveur web Apache2. Nous allons créer un nouveau fichier de configuration qui va permettre de configurer le VirtualHost dédié à GLPI. Dans mon cas, le fichier s'appelle "support.it-connect.tech.conf" en référence au nom de domaine choisi pour accéder à GLPI : support.it-connect.tech. L'idéal étant d'avoir un nom de domaine (même interne) pour accéder à GLPI afin de pouvoir positionner un certificat SSL par la suite.
+```
+sudo nano /etc/apache2/sites-available/glpi.support.billu.tech.conf
+```
+
+![GLPI](https://github.com/WildCodeSchool/TSSR-ANGOU-P3-G1/blob/main/Sprint3/images/apache-1.png)
+
+
+Pour finir, il faut enregistrez le fichier puis activer ce nouveau site dans Apache2.
+
+```
+sudo a2ensite support.it-connect.tech.conf
+
+```
+Nous en profitons également pour désactiver le site par défaut car il est inutile :
+
+```
+sudo a2dissite 000-default.conf
+
+```
+Nous allons aussi activer le module "rewrite" (pour les règles de réécriture) car on l'a utilisé dans le fichier de configuration du VirtualHost (RewriteCond / RewriteRule).
+
+```
+sudo a2enmod rewrite
+
+```
+Il ne reste plus qu'à redémarrer le service Apache2 :
+
+
+```
+sudo systemctl restart apache2
+
+```
+
+Installation de PHP8.2-FPM
+
+```
+sudo apt-get install php8.2-fpm
+```
+Puis, nous allons activer deux modules dans Apache et la configuration de PHP-FPM, avant de recharger Apache2 :
+```
+sudo a2enmod proxy_fcgi setenvif
+sudo a2enconf php8.2-fpm
+sudo systemctl reload apache2
+```
+Pour configurer PHP-FPM pour Apache2, nous n'allons pas éditer le fichier "/etc/php/8.2/apache2/php.ini" mais plutôt le fichier php.ini
+
+```
+sudo nano /etc/php/8.2/fpm/php.ini
+```
+
+Dans ce fichier, recherchez l'option "session.cookie_httponly" et indiquez la valeur "on" pour l'activer, afin de protéger les cookies de GLPI.
+```
+; Whether or not to add the httpOnly flag to the cookie, which makes it
+; inaccessible to browser scripting languages such as JavaScript.
+; https://php.net/session.cookie-httponly
+session.cookie_httponly = on
+```
+
+Pour appliquer les modifications, nous devons redémarrer PHP-FPM :
+```
+sudo systemctl restart php8.2-fpm.service
+```
+Pour finir, nous devons modifier notre VirtualHost pour préciser à Apache2 que PHP-FPM doit être utilisé pour les fichiers PHP :
+```
+<FilesMatch \.php$>
+    SetHandler "proxy:unix:/run/php/php8.2-fpm.sock|fcgi://localhost/"
+</FilesMatch>
+```
+
+Quand c'est fait, relancer Apache2 :
+```
+sudo systemctl restart apache2
+```
+
+Installation de GLPI
+--------------------
+
+
+
+![GLPI](https://github.com/WildCodeSchool/TSSR-ANGOU-P3-G1/blob/main/Sprint3/images/install_glpi_1.png)
+
+![GLPI](https://github.com/WildCodeSchool/TSSR-ANGOU-P3-G1/blob/main/Sprint3/images/install_glpi_2.png)
+
+![GLPI](https://github.com/WildCodeSchool/TSSR-ANGOU-P3-G1/blob/main/Sprint3/images/install_glpi_3.png)
+
+![GLPI](https://github.com/WildCodeSchool/TSSR-ANGOU-P3-G1/blob/main/Sprint3/images/install_glpi_4.png)
+
+![GLPI](https://github.com/WildCodeSchool/TSSR-ANGOU-P3-G1/blob/main/Sprint3/images/install_glpi_5.png)
+
+![GLPI](https://github.com/WildCodeSchool/TSSR-ANGOU-P3-G1/blob/main/Sprint3/images/install_glpi_6.png)
+
+![GLPI](https://github.com/WildCodeSchool/TSSR-ANGOU-P3-G1/blob/main/Sprint3/images/install_glpi_7.png)
+
+
+
 
 Une fois l'installation terminée, en tapant l'adresse IP de la machine sur laquelle GLPI à été installé (ou l'adresse du site web glpi.support.billu.tech préalablement déclaré dans le DNS), nous arrivons sur la page suivante.
 Seule la possibilité de se connecter à "Internal GLPI database" est possible pour le moment.
+
+La première connexion se fera avec le login "glpi" et le mot de passe "glpi". Il faudra évidemment changer ça le plus vite possible.
 
 
 ![GLPI](https://github.com/WildCodeSchool/TSSR-ANGOU-P3-G1/blob/main/Sprint3/images/image_login_GLPI.png)
